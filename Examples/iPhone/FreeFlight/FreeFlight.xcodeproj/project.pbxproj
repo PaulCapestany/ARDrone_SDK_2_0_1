@@ -381,16 +381,6 @@
 		FDEDCFB214D199880019530A /* MenuGamesTrailer.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDEDCFB114D199880019530A /* MenuGamesTrailer.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		373E6A93151895F8008FBAAD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 373E6A8C151895F8008FBAAD /* ARDroneEngine.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 680BC4C5109840DA00F941F4;
-			remoteInfo = ARDroneEngine;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -528,7 +518,6 @@
 		37021DC81513640A00539879 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		37021DC91513640D00539879 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
 		37021DCA1513641000539879 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		373E6A8C151895F8008FBAAD /* ARDroneEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ARDroneEngine.xcodeproj; path = ../../../ControlEngine/iPhone/ARDroneEngine.xcodeproj; sourceTree = "<group>"; };
 		3781EB6E1518839200A0D435 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "../Icon-72@2x.png"; sourceTree = "<group>"; };
 		68738EB610C6B948001F305B /* FreeFlight2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeFlight2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68738EB810C6B95E001F305B /* ARDrone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARDrone.h; path = ../../../ControlEngine/iPhone/Release/ARDrone.h; sourceTree = SOURCE_ROOT; };
@@ -1078,7 +1067,6 @@
 			isa = PBXGroup;
 			children = (
 				801666DC152F3AC000889964 /* ARDroneLib.xcodeproj */,
-				373E6A8C151895F8008FBAAD /* ARDroneEngine.xcodeproj */,
 				8AB5D7F211E61A6F00218BA0 /* FreeFlight-Info.plist */,
 				68738E9510C6B8F1001F305B /* Ressources */,
 				680BC65D10984A4700F941F4 /* Headers */,
@@ -1151,14 +1139,6 @@
 				2BC31E2914A0EE6E003CEFF3 /* ff2.0_spinner_17.png */,
 			);
 			name = ARActivityIndicatorView;
-			sourceTree = "<group>";
-		};
-		373E6A8D151895F8008FBAAD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				373E6A94151895F8008FBAAD /* libARDroneEngine.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		680BC65D10984A4700F941F4 /* Headers */ = {
@@ -1896,10 +1876,6 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 373E6A8D151895F8008FBAAD /* Products */;
-					ProjectRef = 373E6A8C151895F8008FBAAD /* ARDroneEngine.xcodeproj */;
-				},
-				{
 					ProductGroup = 801666DD152F3AC000889964 /* Products */;
 					ProjectRef = 801666DC152F3AC000889964 /* ARDroneLib.xcodeproj */;
 				},
@@ -1910,16 +1886,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		373E6A94151895F8008FBAAD /* libARDroneEngine.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libARDroneEngine.a;
-			remoteRef = 373E6A93151895F8008FBAAD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
@@ -2492,7 +2458,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Mykonos Mykonos";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mykonos Mykonos";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
@@ -2546,7 +2512,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
@@ -2600,7 +2566,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
@@ -2617,7 +2583,7 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;

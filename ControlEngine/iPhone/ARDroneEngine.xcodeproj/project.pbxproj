@@ -821,7 +821,7 @@
 					FFMPEG_SUPPORT,
 				);
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GENERATE_PROFILING_CODE = NO;
 				HEADER_SEARCH_PATHS = (
 					../../ARDroneLib,
@@ -934,7 +934,7 @@
 					FFMPEG_SUPPORT,
 				);
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GENERATE_MASTER_OBJECT_FILE = NO;
 				GENERATE_PROFILING_CODE = YES;
 				HEADER_SEARCH_PATHS = (
@@ -1052,7 +1052,7 @@
 					FFMPEG_SUPPORT,
 				);
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GENERATE_MASTER_OBJECT_FILE = NO;
 				GENERATE_PROFILING_CODE = YES;
 				HEADER_SEARCH_PATHS = (

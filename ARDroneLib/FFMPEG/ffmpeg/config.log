@@ -1,0 +1,3424 @@
+# ./configure --libdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../../Soft/Build/targets_versions//ffmpeg_armv7_PROD_MODE_iphoneos__ --shlibdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../../Soft/Build/targets_versions//ffmpeg_armv7_PROD_MODE_iphoneos__ --incdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../Includes --cc='/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/' --extra-cflags='-arch armv7 -mfpu=neon -miphoneos-version-min=6.0' --extra-ldflags='-arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -miphoneos-version-min=6.0' --enable-cross-compile --target-os=darwin --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ --disable-shared --enable-static --disable-debug --disable-ffmpeg --disable-ffplay --disable-ffserver --disable-ffprobe --disable-doc --disable-everything --enable-decoder=mpeg4 --enable-decoder=h264 --enable-decoder=rawvideo --enable-encoder=mpeg4 --enable-muxer=mp4 --enable-muxer=m4v --enable-muxer=rawvideo --enable-protocol=file --cpu=cortex-a8 --arch=armv7 --enable-pic --enable-neon
+ACODEC_TESTS='ac3_fixed_test
+adpcm_ima_qt_test
+adpcm_ima_wav_test
+adpcm_ms_test
+adpcm_swf_test
+adpcm_yam_test
+alac_test
+aref_test
+flac_test
+g726_test
+mp2_test
+pcm_test
+wmav1_test
+wmav2_test'
+ACTION=build
+AD_HOC_CODE_SIGNING_ALLOWED=NO
+ALTERNATE_GROUP=staff
+ALTERNATE_MODE=u+w,go-w,a+rX
+ALTERNATE_OWNER=pac
+ALWAYS_SEARCH_USER_PATHS=YES
+ALWAYS_USE_SEPARATE_HEADERMAPS=YES
+APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer
+APPLE_INTERNAL_DIR=/AppleInternal
+APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation
+APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library
+APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools
+APPLY_RULES_IN_COPY_FILES=NO
+ARCHS=armv7
+ARCHS_STANDARD='armv7 armv7s'
+ARCHS_STANDARD_32_64_BIT='armv7 armv7s'
+ARCHS_STANDARD_32_BIT='armv7 armv7s'
+ARCHS_STANDARD_64_BIT=arm64
+ARCHS_STANDARD_INCLUDING_64_BIT='armv7 armv7s arm64'
+ARCHS_UNIVERSAL_IPHONE_OS='armv7 armv7s'
+ARCH_EXT_LIST='
+    altivec
+    amd3dnow
+    amd3dnowext
+    armv5te
+    armv6
+    armv6t2
+    armvfp
+    avx
+    iwmmxt
+    mmi
+    mmx
+    mmx2
+    neon
+    ppc4xx
+    sse
+    ssse3
+    vfpv3
+    vis
+'
+ARCH_LIST='
+    alpha
+    arm
+    avr32
+    avr32_ap
+    avr32_uc
+    bfin
+    ia64
+    m68k
+    mips
+    mips64
+    parisc
+    ppc
+    ppc64
+    s390
+    sh4
+    sparc
+    sparc64
+    tomi
+    x86
+    x86_32
+    x86_64
+'
+AVAILABLE_PLATFORMS='iphonesimulator macosx iphoneos'
+Apple_PubSub_Socket_Render=/tmp/launch-SNURYX/Render
+BASH=/bin/sh
+BASH_ARGC=([0]="30")
+BASH_ARGV=([0]="--enable-neon" [1]="--enable-pic" [2]="--arch=armv7" [3]="--cpu=cortex-a8" [4]="--enable-protocol=file" [5]="--enable-muxer=rawvideo" [6]="--enable-muxer=m4v" [7]="--enable-muxer=mp4" [8]="--enable-encoder=mpeg4" [9]="--enable-decoder=rawvideo" [10]="--enable-decoder=h264" [11]="--enable-decoder=mpeg4" [12]="--disable-everything" [13]="--disable-doc" [14]="--disable-ffprobe" [15]="--disable-ffserver" [16]="--disable-ffplay" [17]="--disable-ffmpeg" [18]="--disable-debug" [19]="--enable-static" [20]="--disable-shared" [21]="--sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/" [22]="--target-os=darwin" [23]="--enable-cross-compile" [24]="--extra-ldflags=-arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -miphoneos-version-min=6.0" [25]="--extra-cflags=-arch armv7 -mfpu=neon -miphoneos-version-min=6.0" [26]="--cc=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/" [27]="--incdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../Includes" [28]="--shlibdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../../Soft/Build/targets_versions//ffmpeg_armv7_PROD_MODE_iphoneos__" [29]="--libdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../../Soft/Build/targets_versions//ffmpeg_armv7_PROD_MODE_iphoneos__")
+BASH_LINENO=([0]="0")
+BASH_SOURCE=([0]="./configure")
+BASH_VERSINFO=([0]="3" [1]="2" [2]="51" [3]="1" [4]="release" [5]="x86_64-apple-darwin13")
+BASH_VERSION='3.2.51(1)-release'
+BSF_LIST='aac_adtstoasc_bsf
+chomp_bsf
+dump_extradata_bsf
+h264_mp4toannexb_bsf
+imx_dump_header_bsf
+mjpeg2jpeg_bsf
+mjpega_dump_header_bsf
+mp3_header_compress_bsf
+mp3_header_decompress_bsf
+mov2textsub_bsf
+noise_bsf
+remove_extradata_bsf
+text2movsub_bsf'
+BUILD_COMPONENTS='headers build'
+BUILD_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Products
+BUILD_ROOT=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Products
+BUILD_STYLE=
+BUILD_VARIANTS=normal
+BUILT_PRODUCTS_DIR=/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/Release
+CACHE_ROOT=/var/folders/lq/jt_5ft150rnd56m7f_kp53fw0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode
+CCHROOT=/var/folders/lq/jt_5ft150rnd56m7f_kp53fw0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode
+CC_O='-o $@'
+CHMOD=/bin/chmod
+CHOWN=/usr/sbin/chown
+CLASS_FILE_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/JavaClasses
+CLEAN_PRECOMPS=YES
+CLONE_HEADERS=NO
+CMDLINE_APPEND='
+    extra_cflags
+'
+CMDLINE_SELECT='
+    
+    altivec
+    amd3dnow
+    amd3dnowext
+    armv5te
+    armv6
+    armv6t2
+    armvfp
+    avx
+    iwmmxt
+    mmi
+    mmx
+    mmx2
+    neon
+    ppc4xx
+    sse
+    ssse3
+    vfpv3
+    vis
+
+    
+    
+    bsfs
+    decoders
+    demuxers
+    encoders
+    filters
+    hwaccels
+    indevs
+    muxers
+    outdevs
+    parsers
+    protocols
+
+    aandct
+    ac3dsp
+    avcodec
+    avdevice
+    avfilter
+    avformat
+    avisynth
+    bzlib
+    crystalhd
+    dct
+    doc
+    dwt
+    dxva2
+    fastdiv
+    ffmpeg
+    ffplay
+    ffprobe
+    ffserver
+    fft
+    frei0r
+    golomb
+    gpl
+    gray
+    h264dsp
+    h264pred
+    hardcoded_tables
+    huffman
+    libcelt
+    libdc1394
+    libdirac
+    libfaac
+    libfreetype
+    libgsm
+    libmp3lame
+    libnut
+    libopencore_amrnb
+    libopencore_amrwb
+    libopencv
+    libopenjpeg
+    librtmp
+    libschroedinger
+    libspeex
+    libtheora
+    libvo_aacenc
+    libvo_amrwbenc
+    libvorbis
+    libvpx
+    libx264
+    libxavs
+    libxvid
+    lpc
+    lsp
+    mdct
+    memalign_hack
+    mlib
+    mpegaudiodsp
+    network
+    nonfree
+    pic
+    postproc
+    rdft
+    rtpdec
+    runtime_cpudetect
+    shared
+    sinewin
+    small
+    sram
+    static
+    swscale
+    swscale_alpha
+    vaapi
+    vdpau
+    version3
+    x11grab
+    zlib
+
+    
+    pthreads
+    w32threads
+
+    asm
+    cross_compile
+    debug
+    extra_warnings
+    logging
+    optimizations
+    stripping
+    symver
+    yasm
+'
+CMDLINE_SET='
+    
+    bindir
+    datadir
+    incdir
+    libdir
+    mandir
+    prefix
+    shlibdir
+
+    ar
+    arch
+    as
+    build_suffix
+    cc
+    cpu
+    cross_prefix
+    dep_cc
+    extra_version
+    host_cc
+    host_cflags
+    host_ldflags
+    host_libs
+    host_os
+    install
+    ld
+    logfile
+    malloc_prefix
+    nm
+    pkg_config
+    samples
+    strip
+    sysinclude
+    sysroot
+    target_exec
+    target_os
+    target_path
+'
+CODESIGNING_FOLDER_PATH=/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/Release/libARDroneEngine.a
+CODE_SIGNING_ALLOWED=NO
+CODE_SIGNING_REQUIRED=YES
+CODE_SIGN_CONTEXT_CLASS=XCiPhoneOSCodeSignContext
+CODE_SIGN_IDENTITY='iPhone Developer'
+COLOR_DIAGNOSTICS=NO
+COMBINE_HIDPI_IMAGES=NO
+COMMAND_MODE=legacy
+COMPONENT_LIST='
+    bsfs
+    decoders
+    demuxers
+    encoders
+    filters
+    hwaccels
+    indevs
+    muxers
+    outdevs
+    parsers
+    protocols
+'
+COMPOSITE_SDK_DIRS=/var/folders/lq/jt_5ft150rnd56m7f_kp53fw0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/CompositeSDKs
+COMPRESS_PNG_FILES=YES
+CONFIGURATION=Release
+CONFIGURATION_BUILD_DIR=/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/Release
+CONFIGURATION_TEMP_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release
+CONFIG_EXTRA='
+    avutil
+    gplv3
+    lgplv3
+'
+CONFIG_LIST='
+    
+    bsfs
+    decoders
+    demuxers
+    encoders
+    filters
+    hwaccels
+    indevs
+    muxers
+    outdevs
+    parsers
+    protocols
+
+    aandct
+    ac3dsp
+    avcodec
+    avdevice
+    avfilter
+    avformat
+    avisynth
+    bzlib
+    crystalhd
+    dct
+    doc
+    dwt
+    dxva2
+    fastdiv
+    ffmpeg
+    ffplay
+    ffprobe
+    ffserver
+    fft
+    frei0r
+    golomb
+    gpl
+    gray
+    h264dsp
+    h264pred
+    hardcoded_tables
+    huffman
+    libcelt
+    libdc1394
+    libdirac
+    libfaac
+    libfreetype
+    libgsm
+    libmp3lame
+    libnut
+    libopencore_amrnb
+    libopencore_amrwb
+    libopencv
+    libopenjpeg
+    librtmp
+    libschroedinger
+    libspeex
+    libtheora
+    libvo_aacenc
+    libvo_amrwbenc
+    libvorbis
+    libvpx
+    libx264
+    libxavs
+    libxvid
+    lpc
+    lsp
+    mdct
+    memalign_hack
+    mlib
+    mpegaudiodsp
+    network
+    nonfree
+    pic
+    postproc
+    rdft
+    rtpdec
+    runtime_cpudetect
+    shared
+    sinewin
+    small
+    sram
+    static
+    swscale
+    swscale_alpha
+    vaapi
+    vdpau
+    version3
+    x11grab
+    zlib
+'
+COPYING_PRESERVES_HFS_DATA=NO
+COPY_PHASE_STRIP=YES
+COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES
+CP=/bin/cp
+CREATE_INFOPLIST_SECTION_IN_BINARY=NO
+CURRENT_ARCH=armv7
+CURRENT_VARIANT=normal
+DEAD_CODE_STRIPPING=YES
+DEBUGGING_SYMBOLS=YES
+DEBUG_INFORMATION_FORMAT=dwarf-with-dsym
+DECODER_LIST='aasc_decoder
+amv_decoder
+anm_decoder
+ansi_decoder
+asv1_decoder
+asv2_decoder
+aura_decoder
+aura2_decoder
+avs_decoder
+bethsoftvid_decoder
+bfi_decoder
+bink_decoder
+bmp_decoder
+c93_decoder
+cavs_decoder
+cdgraphics_decoder
+cinepak_decoder
+cljr_decoder
+cscd_decoder
+cyuv_decoder
+dfa_decoder
+dnxhd_decoder
+dpx_decoder
+dsicinvideo_decoder
+dvvideo_decoder
+dxa_decoder
+eacmv_decoder
+eamad_decoder
+eatgq_decoder
+eatgv_decoder
+eatqi_decoder
+eightbps_decoder
+eightsvx_exp_decoder
+eightsvx_fib_decoder
+eightsvx_raw_decoder
+escape124_decoder
+ffv1_decoder
+ffvhuff_decoder
+flashsv_decoder
+flic_decoder
+flv_decoder
+fourxm_decoder
+fraps_decoder
+frwu_decoder
+gif_decoder
+h261_decoder
+h263_decoder
+h263i_decoder
+h264_decoder
+h264_crystalhd_decoder
+h264_vdpau_decoder
+huffyuv_decoder
+idcin_decoder
+iff_byterun1_decoder
+iff_ilbm_decoder
+indeo2_decoder
+indeo3_decoder
+indeo5_decoder
+interplay_video_decoder
+jpeg2000_decoder
+jpegls_decoder
+jv_decoder
+kgv1_decoder
+kmvc_decoder
+lagarith_decoder
+loco_decoder
+mdec_decoder
+mimic_decoder
+mjpeg_decoder
+mjpegb_decoder
+mmvideo_decoder
+motionpixels_decoder
+mpeg_xvmc_decoder
+mpeg1video_decoder
+mpeg2video_decoder
+mpeg4_decoder
+mpeg4_crystalhd_decoder
+mpeg4_vdpau_decoder
+mpegvideo_decoder
+mpeg_vdpau_decoder
+mpeg1_vdpau_decoder
+mpeg2_crystalhd_decoder
+msmpeg4_crystalhd_decoder
+msmpeg4v1_decoder
+msmpeg4v2_decoder
+msmpeg4v3_decoder
+msrle_decoder
+msvideo1_decoder
+mszh_decoder
+mxpeg_decoder
+nuv_decoder
+pam_decoder
+pbm_decoder
+pcx_decoder
+pgm_decoder
+pgmyuv_decoder
+pictor_decoder
+png_decoder
+ppm_decoder
+ptx_decoder
+qdraw_decoder
+qpeg_decoder
+qtrle_decoder
+r10k_decoder
+r210_decoder
+rawvideo_decoder
+rl2_decoder
+roq_decoder
+rpza_decoder
+rv10_decoder
+rv20_decoder
+rv30_decoder
+rv40_decoder
+s302m_decoder
+sgi_decoder
+smacker_decoder
+smc_decoder
+snow_decoder
+sp5x_decoder
+sunrast_decoder
+svq1_decoder
+svq3_decoder
+targa_decoder
+theora_decoder
+thp_decoder
+tiertexseqvideo_decoder
+tiff_decoder
+tmv_decoder
+truemotion1_decoder
+truemotion2_decoder
+tscc_decoder
+txd_decoder
+ulti_decoder
+v210_decoder
+v210x_decoder
+vb_decoder
+vc1_decoder
+vc1_crystalhd_decoder
+vc1_vdpau_decoder
+vcr1_decoder
+vmdvideo_decoder
+vmnc_decoder
+vp3_decoder
+vp5_decoder
+vp6_decoder
+vp6a_decoder
+vp6f_decoder
+vp8_decoder
+vqa_decoder
+wmv1_decoder
+wmv2_decoder
+wmv3_decoder
+wmv3_crystalhd_decoder
+wmv3_vdpau_decoder
+wnv1_decoder
+xan_wc3_decoder
+xan_wc4_decoder
+xl_decoder
+yop_decoder
+zlib_decoder
+zmbv_decoder
+aac_decoder
+aac_latm_decoder
+ac3_decoder
+alac_decoder
+als_decoder
+amrnb_decoder
+amrwb_decoder
+ape_decoder
+atrac1_decoder
+atrac3_decoder
+binkaudio_dct_decoder
+binkaudio_rdft_decoder
+cook_decoder
+dca_decoder
+dsicinaudio_decoder
+eac3_decoder
+flac_decoder
+gsm_decoder
+gsm_ms_decoder
+imc_decoder
+mace3_decoder
+mace6_decoder
+mlp_decoder
+mp1_decoder
+mp1float_decoder
+mp2_decoder
+mp2float_decoder
+mp3_decoder
+mp3float_decoder
+mp3adu_decoder
+mp3adufloat_decoder
+mp3on4_decoder
+mp3on4float_decoder
+mpc7_decoder
+mpc8_decoder
+nellymoser_decoder
+qcelp_decoder
+qdm2_decoder
+ra_144_decoder
+ra_288_decoder
+shorten_decoder
+sipr_decoder
+smackaud_decoder
+sonic_decoder
+truehd_decoder
+truespeech_decoder
+tta_decoder
+twinvq_decoder
+vmdaudio_decoder
+vorbis_decoder
+wavpack_decoder
+wmapro_decoder
+wmav1_decoder
+wmav2_decoder
+wmavoice_decoder
+ws_snd1_decoder
+pcm_alaw_decoder
+pcm_bluray_decoder
+pcm_dvd_decoder
+pcm_f32be_decoder
+pcm_f32le_decoder
+pcm_f64be_decoder
+pcm_f64le_decoder
+pcm_lxf_decoder
+pcm_mulaw_decoder
+pcm_s8_decoder
+pcm_s16be_decoder
+pcm_s16le_decoder
+pcm_s16le_planar_decoder
+pcm_s24be_decoder
+pcm_s24daud_decoder
+pcm_s24le_decoder
+pcm_s32be_decoder
+pcm_s32le_decoder
+pcm_u8_decoder
+pcm_u16be_decoder
+pcm_u16le_decoder
+pcm_u24be_decoder
+pcm_u24le_decoder
+pcm_u32be_decoder
+pcm_u32le_decoder
+pcm_zork_decoder
+interplay_dpcm_decoder
+roq_dpcm_decoder
+sol_dpcm_decoder
+xan_dpcm_decoder
+adpcm_4xm_decoder
+adpcm_adx_decoder
+adpcm_ct_decoder
+adpcm_ea_decoder
+adpcm_ea_maxis_xa_decoder
+adpcm_ea_r1_decoder
+adpcm_ea_r2_decoder
+adpcm_ea_r3_decoder
+adpcm_ea_xas_decoder
+adpcm_g722_decoder
+adpcm_g726_decoder
+adpcm_ima_amv_decoder
+adpcm_ima_dk3_decoder
+adpcm_ima_dk4_decoder
+adpcm_ima_ea_eacs_decoder
+adpcm_ima_ea_sead_decoder
+adpcm_ima_iss_decoder
+adpcm_ima_qt_decoder
+adpcm_ima_smjpeg_decoder
+adpcm_ima_wav_decoder
+adpcm_ima_ws_decoder
+adpcm_ms_decoder
+adpcm_sbpro_2_decoder
+adpcm_sbpro_3_decoder
+adpcm_sbpro_4_decoder
+adpcm_swf_decoder
+adpcm_thp_decoder
+adpcm_xa_decoder
+adpcm_yamaha_decoder
+ass_decoder
+dvbsub_decoder
+dvdsub_decoder
+pgssub_decoder
+srt_decoder
+xsub_decoder
+libcelt_decoder
+libdirac_decoder
+libgsm_decoder
+libgsm_ms_decoder
+libopencore_amrnb_decoder
+libopencore_amrwb_decoder
+libopenjpeg_decoder
+libschroedinger_decoder
+libspeex_decoder
+libvpx_decoder'
+DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0
+DEFAULT_KEXT_INSTALL_PATH=/System/Library/Extensions
+DEMUXER_LIST='aac_demuxer
+ac3_demuxer
+aea_demuxer
+aiff_demuxer
+amr_demuxer
+anm_demuxer
+apc_demuxer
+ape_demuxer
+applehttp_demuxer
+asf_demuxer
+ass_demuxer
+au_demuxer
+avi_demuxer
+avisynth_demuxer
+avs_demuxer
+bethsoftvid_demuxer
+bfi_demuxer
+bink_demuxer
+c93_demuxer
+caf_demuxer
+cavsvideo_demuxer
+cdg_demuxer
+daud_demuxer
+dfa_demuxer
+dirac_demuxer
+dnxhd_demuxer
+dsicin_demuxer
+dts_demuxer
+dv_demuxer
+dxa_demuxer
+ea_demuxer
+ea_cdata_demuxer
+eac3_demuxer
+ffm_demuxer
+ffmetadata_demuxer
+filmstrip_demuxer
+flac_demuxer
+flic_demuxer
+flv_demuxer
+fourxm_demuxer
+g722_demuxer
+gsm_demuxer
+gxf_demuxer
+h261_demuxer
+h263_demuxer
+h264_demuxer
+idcin_demuxer
+iff_demuxer
+image2_demuxer
+image2pipe_demuxer
+ingenient_demuxer
+ipmovie_demuxer
+iss_demuxer
+iv8_demuxer
+ivf_demuxer
+jv_demuxer
+lmlm4_demuxer
+lxf_demuxer
+m4v_demuxer
+matroska_demuxer
+microdvd_demuxer
+mjpeg_demuxer
+mlp_demuxer
+mm_demuxer
+mmf_demuxer
+mov_demuxer
+mp3_demuxer
+mpc_demuxer
+mpc8_demuxer
+mpegps_demuxer
+mpegts_demuxer
+mpegtsraw_demuxer
+mpegvideo_demuxer
+msnwc_tcp_demuxer
+mtv_demuxer
+mvi_demuxer
+mxf_demuxer
+mxg_demuxer
+nc_demuxer
+nsv_demuxer
+nut_demuxer
+nuv_demuxer
+ogg_demuxer
+oma_demuxer
+pcm_alaw_demuxer
+pcm_mulaw_demuxer
+pcm_f64be_demuxer
+pcm_f64le_demuxer
+pcm_f32be_demuxer
+pcm_f32le_demuxer
+pcm_s32be_demuxer
+pcm_s32le_demuxer
+pcm_s24be_demuxer
+pcm_s24le_demuxer
+pcm_s16be_demuxer
+pcm_s16le_demuxer
+pcm_s8_demuxer
+pcm_u32be_demuxer
+pcm_u32le_demuxer
+pcm_u24be_demuxer
+pcm_u24le_demuxer
+pcm_u16be_demuxer
+pcm_u16le_demuxer
+pcm_u8_demuxer
+pmp_demuxer
+pva_demuxer
+qcp_demuxer
+r3d_demuxer
+rawvideo_demuxer
+rl2_demuxer
+rm_demuxer
+roq_demuxer
+rpl_demuxer
+rso_demuxer
+rtp_demuxer
+rtsp_demuxer
+sap_demuxer
+sdp_demuxer
+segafilm_demuxer
+shorten_demuxer
+siff_demuxer
+smacker_demuxer
+sol_demuxer
+sox_demuxer
+spdif_demuxer
+srt_demuxer
+str_demuxer
+swf_demuxer
+thp_demuxer
+tiertexseq_demuxer
+tmv_demuxer
+truehd_demuxer
+tta_demuxer
+txd_demuxer
+tty_demuxer
+vc1_demuxer
+vc1t_demuxer
+vmd_demuxer
+voc_demuxer
+vqf_demuxer
+w64_demuxer
+wav_demuxer
+wc3_demuxer
+wsaud_demuxer
+wsvqa_demuxer
+wtv_demuxer
+wv_demuxer
+xa_demuxer
+xwma_demuxer
+yop_demuxer
+yuv4mpegpipe_demuxer
+libnut_demuxer'
+DEPEND_CMD='$(DEPCC) $(DEPFLAGS) $< | sed -e "/^\#.*/d" -e "s,^[[:space:]]*$(*F)\\.o,$(@D)/$(*F).o," > $(@:.o=.d)'
+DEPFLAGS='$(CPPFLAGS) $(CFLAGS) -MM'
+DEPLOYMENT_LOCATION=NO
+DEPLOYMENT_POSTPROCESSING=NO
+DERIVED_FILES_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/DerivedSources
+DERIVED_FILE_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/DerivedSources
+DERIVED_SOURCES_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/DerivedSources
+DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications
+DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin
+DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks
+DEVELOPER_FRAMEWORKS_DIR_QUOTED=/Applications/Xcode.app/Contents/Developer/Library/Frameworks
+DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library
+DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs
+DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools
+DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr
+DEVELOPMENT_LANGUAGE=English
+DIRSTACK=()
+DO_HEADER_SCANNING_IN_JAM=NO
+DSTROOT=/tmp/ARDroneEngine.dst
+DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+DWARF_DSYM_FILE_NAME=libARDroneEngine.a.dSYM
+DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO
+DWARF_DSYM_FOLDER_PATH=/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/Release
+E1=0
+E2=1
+EFFECTIVE_PLATFORM_NAME=-iphoneos
+EMBEDDED_PROFILE_NAME=embedded.mobileprovision
+ENABLE_HEADER_DEPENDENCIES=YES
+ENCODER_LIST='a64multi_encoder
+a64multi5_encoder
+asv1_encoder
+asv2_encoder
+bmp_encoder
+dnxhd_encoder
+dpx_encoder
+dvvideo_encoder
+ffv1_encoder
+ffvhuff_encoder
+flashsv_encoder
+flashsv2_encoder
+flv_encoder
+gif_encoder
+h261_encoder
+h263_encoder
+h263p_encoder
+huffyuv_encoder
+jpegls_encoder
+ljpeg_encoder
+mjpeg_encoder
+mpeg1video_encoder
+mpeg2video_encoder
+mpeg4_encoder
+msmpeg4v2_encoder
+msmpeg4v3_encoder
+msvideo1_encoder
+pam_encoder
+pbm_encoder
+pcx_encoder
+pgm_encoder
+pgmyuv_encoder
+png_encoder
+ppm_encoder
+qtrle_encoder
+rawvideo_encoder
+roq_encoder
+rv10_encoder
+rv20_encoder
+sgi_encoder
+snow_encoder
+svq1_encoder
+targa_encoder
+tiff_encoder
+v210_encoder
+wmv1_encoder
+wmv2_encoder
+zlib_encoder
+zmbv_encoder
+aac_encoder
+ac3_encoder
+ac3_fixed_encoder
+ac3_float_encoder
+alac_encoder
+dca_encoder
+eac3_encoder
+flac_encoder
+mp2_encoder
+nellymoser_encoder
+ra_144_encoder
+sonic_encoder
+sonic_ls_encoder
+vorbis_encoder
+wmav1_encoder
+wmav2_encoder
+pcm_alaw_encoder
+pcm_f32be_encoder
+pcm_f32le_encoder
+pcm_f64be_encoder
+pcm_f64le_encoder
+pcm_mulaw_encoder
+pcm_s8_encoder
+pcm_s16be_encoder
+pcm_s16le_encoder
+pcm_s24be_encoder
+pcm_s24daud_encoder
+pcm_s24le_encoder
+pcm_s32be_encoder
+pcm_s32le_encoder
+pcm_u8_encoder
+pcm_u16be_encoder
+pcm_u16le_encoder
+pcm_u24be_encoder
+pcm_u24le_encoder
+pcm_u32be_encoder
+pcm_u32le_encoder
+pcm_zork_encoder
+roq_dpcm_encoder
+adpcm_adx_encoder
+adpcm_g722_encoder
+adpcm_g726_encoder
+adpcm_ima_qt_encoder
+adpcm_ima_wav_encoder
+adpcm_ms_encoder
+adpcm_swf_encoder
+adpcm_yamaha_encoder
+ass_encoder
+dvbsub_encoder
+dvdsub_encoder
+srt_encoder
+xsub_encoder
+libdirac_encoder
+libfaac_encoder
+libgsm_encoder
+libgsm_ms_encoder
+libmp3lame_encoder
+libopencore_amrnb_encoder
+libschroedinger_encoder
+libtheora_encoder
+libvo_aacenc_encoder
+libvo_amrwbenc_encoder
+libvorbis_encoder
+libvpx_encoder
+libx264_encoder
+libxavs_encoder
+libxvid_encoder'
+ENTITLEMENTS_REQUIRED=YES
+EUID=501
+EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS='.DS_Store .svn .git .hg CVS'
+EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES='*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj'
+EXECUTABLE_EXTENSION=a
+EXECUTABLE_NAME=libARDroneEngine.a
+EXECUTABLE_PATH=libARDroneEngine.a
+EXECUTABLE_PREFIX=lib
+EXECUTABLE_SUFFIX=.a
+FFMPEG_CONFIGURATION='--libdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../../Soft/Build/targets_versions//ffmpeg_armv7_PROD_MODE_iphoneos__ --shlibdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../../Soft/Build/targets_versions//ffmpeg_armv7_PROD_MODE_iphoneos__ --incdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../Includes --cc='\''/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/'\'' --extra-cflags='\''-arch armv7 -mfpu=neon -miphoneos-version-min=6.0'\'' --extra-ldflags='\''-arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -miphoneos-version-min=6.0'\'' --enable-cross-compile --target-os=darwin --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ --disable-shared --enable-static --disable-debug --disable-ffmpeg --disable-ffplay --disable-ffserver --disable-ffprobe --disable-doc --disable-everything --enable-decoder=mpeg4 --enable-decoder=h264 --enable-decoder=rawvideo --enable-encoder=mpeg4 --enable-muxer=mp4 --enable-muxer=m4v --enable-muxer=rawvideo --enable-protocol=file --cpu=cortex-a8 --arch=armv7 --enable-pic --enable-neon'
+FFSERVERLDFLAGS=-Wl,-E
+FILE_LIST=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/Objects/LinkFileList
+FILTER_LIST='anull_filter
+anullsrc_filter
+anullsink_filter
+blackframe_filter
+copy_filter
+crop_filter
+cropdetect_filter
+drawbox_filter
+drawtext_filter
+fade_filter
+fieldorder_filter
+fifo_filter
+format_filter
+frei0r_filter
+gradfun_filter
+hflip_filter
+hqdn3d_filter
+lut_filter
+lutrgb_filter
+lutyuv_filter
+mp_filter
+negate_filter
+noformat_filter
+null_filter
+ocv_filter
+overlay_filter
+pad_filter
+pixdesctest_filter
+scale_filter
+select_filter
+setdar_filter
+setpts_filter
+setsar_filter
+settb_filter
+showinfo_filter
+slicify_filter
+split_filter
+transpose_filter
+unsharp_filter
+vflip_filter
+yadif_filter
+buffer_filter
+color_filter
+frei0r_src_filter
+movie_filter
+nullsrc_filter
+buffersink_filter
+nullsink_filter'
+FIXED_FILES_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/FixedFiles
+FRAMEWORK_FLAG_PREFIX=-framework
+FRAMEWORK_SEARCH_PATHS='/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/Release '
+FRAMEWORK_VERSION=A
+FULLNAME='$(NAME)$(BUILDSUF)'
+FULL_PRODUCT_NAME=libARDroneEngine.a
+GCC3_VERSION=3.3
+GCC_AUTO_VECTORIZATION=YES
+GCC_C_LANGUAGE_STANDARD=gnu99
+GCC_DYNAMIC_NO_PIC=NO
+GCC_ENABLE_SYMBOL_SEPARATION=NO
+GCC_GENERATE_DEBUGGING_SYMBOLS=YES
+GCC_LINK_WITH_DYNAMIC_LIBRARIES=YES
+GCC_OPTIMIZATION_LEVEL=s
+GCC_PFE_FILE_C_DIALECTS='c objective-c c++ objective-c++'
+GCC_PREPROCESSOR_DEFINITIONS='__linux__ FFMPEG_SUPPORT'
+GCC_THUMB_SUPPORT=NO
+GCC_TREAT_WARNINGS_AS_ERRORS=NO
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0
+GCC_WARN_ABOUT_RETURN_TYPE=YES
+GCC_WARN_UNUSED_VARIABLE=YES
+GENERATE_MASTER_OBJECT_FILE=NO
+GENERATE_PKGINFO_FILE=NO
+GENERATE_PROFILING_CODE=YES
+GID=20
+GROUP=staff
+GROUPS=()
+HAVE_LIST='
+    
+    altivec
+    amd3dnow
+    amd3dnowext
+    armv5te
+    armv6
+    armv6t2
+    armvfp
+    avx
+    iwmmxt
+    mmi
+    mmx
+    mmx2
+    neon
+    ppc4xx
+    sse
+    ssse3
+    vfpv3
+    vis
+
+    
+    bigendian
+    fast_unaligned
+
+    
+    pthreads
+    w32threads
+
+    aligned_stack
+    alsa_asoundlib_h
+    altivec_h
+    arpa_inet_h
+    attribute_may_alias
+    attribute_packed
+    bswap
+    closesocket
+    cmov
+    dcbzl
+    dev_bktr_ioctl_bt848_h
+    dev_bktr_ioctl_meteor_h
+    dev_ic_bt8xx_h
+    dev_video_meteor_ioctl_meteor_h
+    dev_video_bktr_ioctl_bt848_h
+    dlfcn_h
+    dlopen
+    dos_paths
+    ebp_available
+    ebx_available
+    exp2
+    exp2f
+    fast_64bit
+    fast_clz
+    fast_cmov
+    fcntl
+    fork
+    getaddrinfo
+    gethrtime
+    GetProcessMemoryInfo
+    GetProcessTimes
+    getrusage
+    gnu_as
+    struct_rusage_ru_maxrss
+    ibm_asm
+    inet_aton
+    inline_asm
+    isatty
+    kbhit
+    ldbrx
+    llrint
+    llrintf
+    local_aligned_16
+    local_aligned_8
+    localtime_r
+    log2
+    log2f
+    loongson
+    lrint
+    lrintf
+    lzo1x_999_compress
+    machine_ioctl_bt848_h
+    machine_ioctl_meteor_h
+    malloc_h
+    MapViewOfFile
+    memalign
+    mkstemp
+    mmap
+    pld
+    posix_memalign
+    round
+    roundf
+    sdl
+    sdl_video_size
+    setmode
+    sndio_h
+    socklen_t
+    soundcard_h
+    poll_h
+    setrlimit
+    strerror_r
+    strtok_r
+    struct_addrinfo
+    struct_ipv6_mreq
+    struct_sockaddr_in6
+    struct_sockaddr_sa_len
+    struct_sockaddr_storage
+    symver
+    symver_gnu_asm
+    symver_asm_label
+    sys_mman_h
+    sys_resource_h
+    sys_select_h
+    sys_soundcard_h
+    sys_videoio_h
+    ten_operands
+    termios_h
+    threads
+    trunc
+    truncf
+    vfp_args
+    VirtualAlloc
+    winsock2_h
+    xform_asm
+    xmm_clobbers
+    yasm
+'
+HAVE_LIST_PUB='
+    bigendian
+    fast_unaligned
+'
+HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES
+HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES
+HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES
+HEADERMAP_INCLUDES_PROJECT_HEADERS=YES
+HEADER_SEARCH_PATHS='/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/Release/include ../../ARDroneLib ../../ARDroneLib/Soft/Common ../../ARDroneLib/Soft/Lib ../../ARDroneLib/VLIB ../../ARDroneLib/VLIB/Platform/arm11 ../../ARDroneLib/VP_SDK ../../ARDroneLib/VP_SDK/VP_Com ../../ARDroneLib/VP_SDK/VP_Os ../../ARDroneLib/VP_SDK/VP_Os/linux ../../ARDroneLib/VP_SDK/VP_Com/linux ../../ARDroneLib/FFMPEG/Includes ../../ARDroneLib/ITTIAM/avc_decoder/includes ../../ARDroneLib/ITTIAM/m4v_decoder/includes'
+HOME=/Users/pac
+HOSTNAME=Pauls-MacBook-Pro.local
+HOSTTYPE=x86_64
+HWACCEL_LIST='h263_vaapi_hwaccel
+h264_dxva2_hwaccel
+h264_vaapi_hwaccel
+mpeg1_vdpau_hwaccel
+mpeg2_dxva2_hwaccel
+mpeg2_vaapi_hwaccel
+mpeg2_vdpau_hwaccel
+mpeg4_vaapi_hwaccel
+vc1_dxva2_hwaccel
+vc1_vaapi_hwaccel
+wmv3_dxva2_hwaccel
+wmv3_vaapi_hwaccel'
+ICONV=/usr/bin/iconv
+IFS=' 	
+'
+INDEV_LIST='alsa_indev
+bktr_indev
+dshow_indev
+dv1394_indev
+fbdev_indev
+jack_indev
+oss_indev
+sndio_indev
+v4l2_indev
+v4l_indev
+vfwcap_indev
+x11_grab_device_indev
+libdc1394_indev'
+INFOPLIST_EXPAND_BUILD_SETTINGS=NO
+INFOPLIST_OUTPUT_FORMAT=binary
+INFOPLIST_PREPROCESS=NO
+INSTALL_DIR=/tmp/ARDroneEngine.dst/usr/local/lib
+INSTALL_GROUP=staff
+INSTALL_MODE_FLAG=u+w,go-w,a+rX
+INSTALL_OWNER=pac
+INSTALL_PATH=/usr/local/lib
+INSTALL_ROOT=/tmp/ARDroneEngine.dst
+IPHONEOS_DEPLOYMENT_TARGET=5.0
+JAVAC_DEFAULT_FLAGS='-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8'
+JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub
+JAVA_ARCHIVE_CLASSES=YES
+JAVA_ARCHIVE_TYPE=JAR
+JAVA_COMPILER=/usr/bin/javac
+JAVA_FRAMEWORK_RESOURCES_DIRS=Resources
+JAVA_JAR_FLAGS=cv
+JAVA_SOURCE_SUBDIR=.
+JAVA_USE_DEPENDENCIES=YES
+JAVA_ZIP_FLAGS=-urg
+JIKES_DEFAULT_FLAGS='+E +OLDCSO'
+KEEP_PRIVATE_EXTERNS=NO
+LAVFI_TESTS='crop_test
+crop_scale_test
+crop_scale_vflip_test
+crop_vflip_test
+null_test
+pixdesc_be_test
+pixdesc_le_test
+pixfmts_copy_le_test
+pixfmts_crop_le_test
+pixfmts_hflip_le_test
+pixfmts_null_le_test
+pixfmts_pad_le_test
+pixfmts_scale_le_test
+pixfmts_vflip_le_test
+scale200_test
+scale500_test
+vflip_test
+vflip_crop_test
+vflip_vflip_test'
+LAVF_TESTS='aiff_test
+alaw_test
+asf_test
+au_test
+avi_test
+bmp_test
+dv_fmt_test
+ffm_test
+flv_fmt_test
+gif_test
+gxf_test
+jpg_test
+mkv_test
+mmf_test
+mov_test
+mpg_test
+mulaw_test
+mxf_test
+nut_test
+ogg_test
+pbmpipe_test
+pcx_test
+pgm_test
+pgmpipe_test
+pixfmt_test
+png_test
+ppm_test
+ppmpipe_test
+rm_test
+sgi_test
+swf_test
+tga_test
+tiff_test
+ts_test
+voc_test
+voc_s16_test
+wav_test
+yuv4mpeg_test'
+LC_ALL=C
+LDFLAGS=' -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -miphoneos-version-min=6.0'
+LD_DEPENDENCY_INFO_FILE=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/Objects-normal/armv7/ARDroneEngine_dependency_info.dat
+LD_GENERATE_MAP_FILE=NO
+LD_MAP_FILE_PATH=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/ARDroneEngine-LinkMap-normal-armv7.txt
+LD_NO_PIE=NO
+LD_OPENMP_FLAGS=-fopenmp
+LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER=YES
+LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer
+LEX=lex
+LIBNAME='$(LIBPREF)$(FULLNAME)$(LIBSUF)'
+LIBPREF=lib
+LIBRARY_FLAG_NOSPACE=YES
+LIBRARY_FLAG_PREFIX=-l
+LIBRARY_KEXT_INSTALL_PATH=/Library/Extensions
+LIBRARY_SEARCH_PATHS='/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/Release /Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/Release "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/ITTIAM/avc_decoder/libs" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/ITTIAM/m4v_decoder/libs" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/Soft/Build/targets_versions/vlib_PROD_MODE_armv7_iphoneos_DeveloperPlatformsiPhoneOS.platformDeveloperusrbingcc_4.2.1" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/Soft/Build/targets_versions/vlib_PROD_MODE_armv6_iphoneos_DeveloperPlatformsiPhoneOS.platformDeveloperusrbingcc_4.2.1" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/Soft/Build/targets_versions/ffmpeg_static_PROD_MODE_Linux_2.6.35-31-generic_GNU_Linux_usrbingcc_4.4.5" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/Soft/Build/targets_versions/ffmpeg_i686_PROD_MODE_Linux_2.6.35-30-generic_GNU_Linux_usrbingcc_4.4.5" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/Soft/Build/targets_versions/sdk_PROD_MODE_vlib_armv7_iphoneos_DeveloperPlatformsiPhoneOS.platformDeveloperusrbingcc_4.2.1" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/Soft/Build/targets_versions/ardrone_lib_PROD_MODE_vlib_Linux_2.6.35-31-generic_GNU_Linux_usrbingcc_4.4.5" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/Soft/Build/targets_versions/ardrone_lib_PROD_MODE_vlib_armv7_iphoneos_DeveloperPlatformsiPhoneOS.platformDeveloperusrbingcc_4.2.1" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/Soft/Build/targets_versions/ardrone_lib_PROD_MODE_vlib_armv6_iphoneos_DeveloperPlatformsiPhoneOS.platformDeveloperusrbingcc_4.2.1" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/Soft/Build/targets_versions/ffmpeg_i686_PROD_MODE_Linux_2.6.35-31-generic_GNU_Linux_usrbingcc_4.4.5" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/Soft/Build/targets_versions/vlib_PROD_MODE_Linux_2.6.35-31-generic_GNU_Linux_usrbingcc_4.4.5" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/Soft/Build/targets_versions/sdk_PROD_MODE_vlib_Linux_2.6.35-31-generic_GNU_Linux_usrbingcc_4.4.5" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/Soft/Build/targets_versions/sdk_PROD_MODE_vlib_armv6_iphoneos_DeveloperPlatformsiPhoneOS.platformDeveloperusrbingcc_4.2.1" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../ARDroneLib/Soft/Build/targets_versions/ffmpeg_static_PROD_MODE_Linux_2.6.35-30-generic_GNU_Linux_usrbingcc_4.4.5" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../Examples/iPhone/FreeFlight/Release" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/../../Examples/Android/adfreeflight/libs/armeabi" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/Release" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/build/ARDroneEngine.build/Release/ARDroneEngine.build/Objects-normal/armv6" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/build/ARDroneEngine.build/Release/ARDroneEngine.build/Objects-normal/armv7" "/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/Debug"'
+LIBSUF=.a
+LIB_INSTALL_EXTRA_CMD='$$(RANLIB) "$(LIBDIR)/$(LIBNAME)"'
+LINKER_DISPLAYS_MANGLED_NAMES=NO
+LINK_FILE_LIST_normal_armv7=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/Objects-normal/armv7/ARDroneEngine.LinkFileList
+LINK_WITH_STANDARD_LIBRARIES=YES
+LOCAL_ADMIN_APPS_DIR=/Applications/Utilities
+LOCAL_APPS_DIR=/Applications
+LOCAL_DEVELOPER_DIR=/Library/Developer
+LOCAL_LIBRARY_DIR=/Library
+LOGNAME=pac
+MACHTYPE=x86_64-apple-darwin13
+MACH_O_TYPE=staticlib
+MAC_OS_X_PRODUCT_BUILD_VERSION=13C64
+MAC_OS_X_VERSION_ACTUAL=1092
+MAC_OS_X_VERSION_MAJOR=1090
+MAC_OS_X_VERSION_MINOR=0902
+MAKEFLAGS=RELEASE_BUILD=yes
+MAKELEVEL=1
+MAKEOVERRIDES='${-*-command-variables-*-}'
+MFLAGS=
+MODULE_CACHE_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/ModuleCache
+MUXER_LIST='a64_muxer
+ac3_muxer
+adts_muxer
+aiff_muxer
+amr_muxer
+asf_muxer
+ass_muxer
+asf_stream_muxer
+au_muxer
+avi_muxer
+avm2_muxer
+caf_muxer
+cavsvideo_muxer
+crc_muxer
+daud_muxer
+dirac_muxer
+dnxhd_muxer
+dts_muxer
+dv_muxer
+eac3_muxer
+ffm_muxer
+ffmetadata_muxer
+filmstrip_muxer
+flac_muxer
+flv_muxer
+framecrc_muxer
+framemd5_muxer
+g722_muxer
+gif_muxer
+gxf_muxer
+h261_muxer
+h263_muxer
+h264_muxer
+image2_muxer
+image2pipe_muxer
+ipod_muxer
+ivf_muxer
+m4v_muxer
+md5_muxer
+matroska_muxer
+matroska_audio_muxer
+microdvd_muxer
+mjpeg_muxer
+mlp_muxer
+mmf_muxer
+mov_muxer
+mp2_muxer
+mp3_muxer
+mp4_muxer
+mpeg1system_muxer
+mpeg1vcd_muxer
+mpeg1video_muxer
+mpeg2dvd_muxer
+mpeg2svcd_muxer
+mpeg2video_muxer
+mpeg2vob_muxer
+mpegts_muxer
+mpjpeg_muxer
+mxf_muxer
+mxf_d10_muxer
+null_muxer
+nut_muxer
+ogg_muxer
+pcm_alaw_muxer
+pcm_mulaw_muxer
+pcm_f64be_muxer
+pcm_f64le_muxer
+pcm_f32be_muxer
+pcm_f32le_muxer
+pcm_s32be_muxer
+pcm_s32le_muxer
+pcm_s24be_muxer
+pcm_s24le_muxer
+pcm_s16be_muxer
+pcm_s16le_muxer
+pcm_s8_muxer
+pcm_u32be_muxer
+pcm_u32le_muxer
+pcm_u24be_muxer
+pcm_u24le_muxer
+pcm_u16be_muxer
+pcm_u16le_muxer
+pcm_u8_muxer
+psp_muxer
+rawvideo_muxer
+rm_muxer
+roq_muxer
+rso_muxer
+rtp_muxer
+rtsp_muxer
+sap_muxer
+sox_muxer
+spdif_muxer
+srt_muxer
+swf_muxer
+tg2_muxer
+tgp_muxer
+truehd_muxer
+vc1t_muxer
+voc_muxer
+wav_muxer
+webm_muxer
+yuv4mpegpipe_muxer
+libnut_muxer'
+MallocNanoZone=0
+NATIVE_ARCH=armv7
+NATIVE_ARCH_32_BIT=i386
+NATIVE_ARCH_64_BIT=x86_64
+NATIVE_ARCH_ACTUAL=x86_64
+NO_COMMON=YES
+OBJECT_FILE_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/Objects
+OBJECT_FILE_DIR_normal=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/Objects-normal
+OBJROOT=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates
+ONLY_ACTIVE_ARCH=NO
+OPTERR=1
+OPTIMIZATION_LEVEL=0
+OPTIND=1
+OS=MACOS
+OSAC=/usr/bin/osacompile
+OSTYPE=darwin13
+OTHER_CFLAGS=-fms-extensions
+OTHER_CPLUSPLUSFLAGS=-fms-extensions
+OTHER_LDFLAGS='-lpc_ardrone -lsdk -lvlib -lswscale -lavcodec -lavutil -lavdevice -lavformat -lavfilter'
+OUTDEV_LIST='alsa_outdev
+oss_outdev
+sdl_outdev
+sndio_outdev'
+PACKAGE_TYPE=com.apple.package-type.static-library
+PARSER_LIST='aac_parser
+aac_latm_parser
+ac3_parser
+cavsvideo_parser
+dca_parser
+dirac_parser
+dnxhd_parser
+dvbsub_parser
+dvdsub_parser
+flac_parser
+h261_parser
+h263_parser
+h264_parser
+mjpeg_parser
+mlp_parser
+mpeg4video_parser
+mpegaudio_parser
+mpegvideo_parser
+pnm_parser
+vc1_parser
+vp3_parser
+vp8_parser'
+PASCAL_STRINGS=YES
+PATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg
+PATHS_LIST='
+    bindir
+    datadir
+    incdir
+    libdir
+    mandir
+    prefix
+    shlibdir
+'
+PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES='/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms'
+PFE_FILE_C_DIALECTS='c objective-c'
+PIPESTATUS=([0]="0")
+PKGINFO_FILE_PATH=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/PkgInfo
+PLATFORM_BIN_DIR_FORMAT=ApplicationsXcode.appContentsDeveloperPlatformsiPhoneOS.platformDeveloperusrbin
+PLATFORM_BUILD_FORMAT=PROD_MODE
+PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications
+PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin
+PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library
+PLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs
+PLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools
+PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr
+PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform
+PLATFORM_NAME=iphoneos
+PLATFORM_NAME_FORMAT=iPhoneOS
+PLATFORM_PREFERRED_ARCH=arm64
+PLATFORM_PRODUCT_BUILD_VERSION=11B508
+PLIST_FILE_OUTPUT_FORMAT=binary
+POSIXLY_CORRECT=y
+PPID=20196
+PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES
+PRECOMP_DESTINATION_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/PrefixHeaders
+PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO
+PRIVATE_HEADERS_FOLDER_PATH=/usr/local/include
+PRODUCT_NAME=ARDroneEngine
+PRODUCT_SETTINGS_PATH=
+PRODUCT_TYPE=com.apple.product-type.library.static
+PROFILING_CODE=NO
+PROJECT=ARDroneEngine
+PROJECT_DERIVED_FILE_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/DerivedSources
+PROJECT_DIR=/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone
+PROJECT_FILE_PATH=/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/ARDroneEngine.xcodeproj
+PROJECT_NAME=ARDroneEngine
+PROJECT_TEMP_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build
+PROJECT_TEMP_ROOT=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates
+PROTOCOL_LIST='applehttp_protocol
+concat_protocol
+crypto_protocol
+file_protocol
+gopher_protocol
+http_protocol
+mmsh_protocol
+mmst_protocol
+md5_protocol
+pipe_protocol
+rtmp_protocol
+rtmpt_protocol
+rtmpe_protocol
+rtmpte_protocol
+rtmps_protocol
+rtp_protocol
+tcp_protocol
+udp_protocol'
+PS4='+ '
+PUBLIC_HEADERS_FOLDER_PATH=/usr/local/include
+PWD=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg
+RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES
+RELEASE_BUILD=yes
+REMOVE_CVS_FROM_RESOURCES=YES
+REMOVE_GIT_FROM_RESOURCES=YES
+REMOVE_HG_FROM_RESOURCES=YES
+REMOVE_SVN_FROM_RESOURCES=YES
+REZ_COLLECTOR_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/ResourceManagerResources
+REZ_EXECUTABLE=YES
+REZ_OBJECTS_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build/ResourceManagerResources/Objects
+REZ_SEARCH_PATHS='/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/Release '
+SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO
+SCRIPT_INPUT_FILE_COUNT=0
+SCRIPT_OUTPUT_FILE_COUNT=0
+SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+SDK_NAME=iphoneos7.0
+SDK_PRODUCT_BUILD_VERSION=11B508
+SED=/usr/bin/sed
+SEEK_TESTS='seek_ac3_rm_test
+seek_adpcm_ima_wav_test
+seek_adpcm_ms_wav_test
+seek_adpcm_qt_aiff_test
+seek_adpcm_swf_flv_test
+seek_adpcm_yam_wav_test
+seek_alac_m4a_test
+seek_asv1_avi_test
+seek_asv2_avi_test
+seek_dnxhd_1080i_mov_test
+seek_dnxhd_720p_dnxhd_test
+seek_dnxhd_720p_rd_dnxhd_test
+seek_dv411_dv_test
+seek_dv50_dv_test
+seek_dv_dv_test
+seek_error_mpeg4_adv_avi_test
+seek_ffv1_avi_test
+seek_flac_flac_test
+seek_flashsv_flv_test
+seek_flv_flv_test
+seek_g726_wav_test
+seek_h261_avi_test
+seek_h263_avi_test
+seek_h263p_avi_test
+seek_huffyuv_avi_test
+seek_image_bmp_test
+seek_image_jpg_test
+seek_image_pcx_test
+seek_image_pgm_test
+seek_image_ppm_test
+seek_image_sgi_test
+seek_image_tga_test
+seek_image_tiff_test
+seek_jpegls_avi_test
+seek_lavf_aif_test
+seek_lavf_al_test
+seek_lavf_asf_test
+seek_lavf_au_test
+seek_lavf_avi_test
+seek_lavf_dv_test
+seek_lavf_ffm_test
+seek_lavf_flv_test
+seek_lavf_gif_test
+seek_lavf_gxf_test
+seek_lavf_mkv_test
+seek_lavf_mmf_test
+seek_lavf_mov_test
+seek_lavf_mpg_test
+seek_lavf_mxf_test
+seek_lavf_mxf_d10_test
+seek_lavf_nut_test
+seek_lavf_ogg_test
+seek_lavf_rm_test
+seek_lavf_swf_test
+seek_lavf_ts_test
+seek_lavf_ul_test
+seek_lavf_voc_test
+seek_lavf_wav_test
+seek_lavf_y4m_test
+seek_ljpeg_avi_test
+seek_mjpeg_avi_test
+seek_mp2_mp2_test
+seek_mpeg1_mpg_test
+seek_mpeg1b_mpg_test
+seek_mpeg2_422_mpg_test
+seek_mpeg2_mpg_test
+seek_mpeg2i_mpg_test
+seek_mpeg2ivlc_qprd_mpg_test
+seek_mpeg2reuse_mpg_test
+seek_mpeg2thread_mpg_test
+seek_mpeg2threadivlc_mpg_test
+seek_mpeg4_adap_avi_test
+seek_mpeg4_adv_avi_test
+seek_mpeg4_nr_avi_test
+seek_mpeg4_qprd_avi_test
+seek_mpeg4_rc_avi_test
+seek_mpeg4_thread_avi_test
+seek_msmpeg4_avi_test
+seek_msmpeg4v2_avi_test
+seek_odivx_mp4_test
+seek_pbmpipe_pbm_test
+seek_pcm_alaw_wav_test
+seek_pcm_f32be_au_test
+seek_pcm_f32le_wav_test
+seek_pcm_f64be_au_test
+seek_pcm_f64le_wav_test
+seek_pcm_mulaw_wav_test
+seek_pcm_s16be_mkv_test
+seek_pcm_s16be_mov_test
+seek_pcm_s16le_mkv_test
+seek_pcm_s16le_wav_test
+seek_pcm_s24be_mov_test
+seek_pcm_s24daud_302_test
+seek_pcm_s24le_wav_test
+seek_pcm_s32be_mov_test
+seek_pcm_s32le_wav_test
+seek_pcm_s8_mov_test
+seek_pcm_u8_wav_test
+seek_pcm_zork_wav_test
+seek_pgmpipe_pgm_test
+seek_ppmpipe_ppm_test
+seek_rgb_avi_test
+seek_roqav_roq_test
+seek_rv10_rm_test
+seek_rv20_rm_test
+seek_snow53_avi_test
+seek_snow_avi_test
+seek_svq1_mov_test
+seek_wmav1_asf_test
+seek_wmav2_asf_test
+seek_wmv1_avi_test
+seek_wmv2_avi_test
+seek_yuv_avi_test'
+SEPARATE_STRIP=YES
+SEPARATE_SYMBOL_EDIT=NO
+SET_DIR_MODE_OWNER_GROUP=YES
+SET_FILE_MODE_OWNER_GROUP=NO
+SHARED_DERIVED_FILE_DIR=/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/Release/DerivedSources
+SHARED_PRECOMPS_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/PrecompiledHeaders
+SHELL=/bin/zsh
+SHELLOPTS=braceexpand:hashall:interactive-comments:posix
+SHFLAGS='-shared -Wl,-soname,$$(@F)'
+SHLVL=7
+SKIP_INSTALL=NO
+SLIBNAME='$(SLIBPREF)$(FULLNAME)$(SLIBSUF)'
+SLIBNAME_WITH_MAJOR='$(SLIBNAME).$(LIBMAJOR)'
+SLIBNAME_WITH_VERSION='$(SLIBNAME).$(LIBVERSION)'
+SLIBPREF=lib
+SLIBSUF=.so
+SOURCE_ROOT=/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone
+SRCROOT=/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone
+SSH_AUTH_SOCK=/tmp/launch-SeMonF/Listeners
+STRINGS_FILE_OUTPUT_ENCODING=binary
+STRIP_INSTALLED_PRODUCT=YES
+STRIP_STYLE=debugging
+SUPPORTED_DEVICE_FAMILIES=1,2
+SUPPORTED_PLATFORMS='iphoneos iphonesimulator'
+SYMROOT=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Products
+SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities
+SYSTEM_APPS_DIR=/Applications
+SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices
+SYSTEM_DEMOS_DIR=/Applications/Extras
+SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications
+SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin
+SYSTEM_DEVELOPER_DEMOS_DIR='/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples'
+SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+SYSTEM_DEVELOPER_DOC_DIR='/Applications/Xcode.app/Contents/Developer/ADC Reference Library'
+SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR='/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools'
+SYSTEM_DEVELOPER_JAVA_TOOLS_DIR='/Applications/Xcode.app/Contents/Developer/Applications/Java Tools'
+SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR='/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools'
+SYSTEM_DEVELOPER_RELEASENOTES_DIR='/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes'
+SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools
+SYSTEM_DEVELOPER_TOOLS_DOC_DIR='/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools'
+SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR='/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools'
+SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr
+SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities
+SYSTEM_DOCUMENTATION_DIR=/Library/Documentation
+SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions
+SYSTEM_LIBRARY_DIR=/System/Library
+TARGETED_DEVICE_FAMILY=1
+TARGETNAME=ARDroneEngine
+TARGET_BUILD_DIR=/Users/pac/ARDrone_SDK_2_0_1/ControlEngine/iPhone/Release
+TARGET_NAME=ARDroneEngine
+TARGET_TEMP_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build
+TEMP_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build
+TEMP_FILES_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build
+TEMP_FILE_DIR=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates/ARDroneEngine.build/Release/ARDroneEngine.build
+TEMP_ROOT=/Users/pac/ARDrone_SDK_2_0_1/Examples/iPhone/FreeFlight/DerivedData/FreeFlight/Build/Intermediates
+TERM=dumb
+THREADS_LIST='
+    pthreads
+    w32threads
+'
+TMPDIR=/var/folders/lq/jt_5ft150rnd56m7f_kp53fw0000gn/T/
+TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault
+UID=501
+UNSTRIPPED_PRODUCT=NO
+USER=pac
+USER_APPS_DIR=/Users/pac/Applications
+USER_LIBRARY_DIR=/Users/pac/Library
+USE_DYNAMIC_NO_PIC=YES
+USE_HEADERMAP=YES
+USE_HEADER_SYMLINKS=NO
+VALIDATE_PRODUCT=NO
+VALID_ARCHS='armv7 i386'
+VCODEC_TESTS='asv1_test
+asv2_test
+dnxhd_1080i_test
+dnxhd_720p_test
+dnxhd_720p_rd_test
+dv_test
+dv50_test
+error_test
+ffv1_test
+flashsv_test
+flashsv2_test
+flv_test
+h261_test
+h263_test
+h263p_test
+huffyuv_test
+jpegls_test
+ljpeg_test
+mjpeg_test
+mpeg_test
+mpeg1b_test
+mpeg2_test
+mpeg2thread_test
+mpeg4_test
+mpeg4adv_test
+mpeg4nr_test
+mpeg4thread_test
+msmpeg4_test
+msmpeg4v2_test
+msvideo1_test
+qtrle_test
+qtrlegray_test
+rc_test
+rgb_test
+roq_test
+rv10_test
+rv20_test
+snow_test
+snowll_test
+svq1_test
+vref_test
+wmv1_test
+wmv2_test
+yuv_test'
+VERBOSE_PBXCP=NO
+VERSION_INFO_BUILDER=pac
+VERSION_INFO_FILE=ARDroneEngine_vers.c
+VERSION_INFO_STRING='"@(#)PROGRAM:ARDroneEngine  PROJECT:ARDroneEngine-"'
+XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode
+XCODE_PRODUCT_BUILD_VERSION=5A3005
+XCODE_VERSION_ACTUAL=0502
+XCODE_VERSION_MAJOR=0500
+XCODE_VERSION_MINOR=0500
+XPCSERVICES_FOLDER_PATH=/XPCServices
+YACC=yacc
+_='# ./configure --libdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../../Soft/Build/targets_versions//ffmpeg_armv7_PROD_MODE_iphoneos__ --shlibdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../../Soft/Build/targets_versions//ffmpeg_armv7_PROD_MODE_iphoneos__ --incdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../Includes --cc='\''/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/'\'' --extra-cflags='\''-arch armv7 -mfpu=neon -miphoneos-version-min=6.0'\'' --extra-ldflags='\''-arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -miphoneos-version-min=6.0'\'' --enable-cross-compile --target-os=darwin --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ --disable-shared --enable-static --disable-debug --disable-ffmpeg --disable-ffplay --disable-ffserver --disable-ffprobe --disable-doc --disable-everything --enable-decoder=mpeg4 --enable-decoder=h264 --enable-decoder=rawvideo --enable-encoder=mpeg4 --enable-muxer=mp4 --enable-muxer=m4v --enable-muxer=rawvideo --enable-protocol=file --cpu=cortex-a8 --arch=armv7 --enable-pic --enable-neon'
+__CF_USER_TEXT_ENCODING=0x1F5:0:0
+__CHECKFIX1436934=1
+aac_decoder_select='mdct sinewin'
+aac_encoder_select='mdct sinewin'
+aac_latm_decoder_select='aac_decoder aac_latm_parser'
+ac3_decoder_select='mdct ac3dsp ac3_parser'
+ac3_demuxer_select=ac3_parser
+ac3_encoder_select='mdct ac3dsp'
+ac3_fixed_encoder_select='mdct ac3dsp'
+ac3_fixed_test=yes
+ac3_fixed_test_deps='ac3_fixed_encoder ac3_decoder rm_muxer rm_demuxer'
+action=enable
+adpcm_ima_qt_test=yes
+adpcm_ima_qt_test_deps='adpcm_ima_qt_encoder adpcm_ima_qt_decoder'
+adpcm_ima_wav_test=yes
+adpcm_ima_wav_test_deps='adpcm_ima_wav_encoder adpcm_ima_wav_decoder'
+adpcm_ms_test=yes
+adpcm_ms_test_deps='adpcm_ms_encoder adpcm_ms_decoder'
+adpcm_swf_test=yes
+adpcm_swf_test_deps='adpcm_swf_encoder adpcm_swf_decoder'
+adpcm_yam_test=yes
+adpcm_yam_test_deps='adpcm_yamaha_encoder adpcm_yamaha_decoder'
+aiff_test=yes
+aiff_test_deps='aiff_muxer aiff_demuxer'
+alac_encoder_select=lpc
+alac_test=yes
+alac_test_deps='alac_encoder alac_decoder'
+alaw_test=yes
+alaw_test_deps='pcm_alaw_muxer pcm_alaw_demuxer'
+aligned_stack_if_any='ppc x86'
+alsa_indev_deps='alsa_asoundlib_h snd_pcm_htimestamp'
+alsa_outdev_deps=alsa_asoundlib_h
+altivec=yes
+altivec_deps=ppc
+amd3dnow=yes
+amd3dnow_deps=mmx
+amd3dnowext=yes
+amd3dnowext_deps=amd3dnow
+amrnb_decoder_select=lsp
+amrwb_decoder_select=lsp
+ar_default=ar
+arch=armv7
+arch_default=x86_64
+aref_test=yes
+armv5te=yes
+armv5te_deps=arm
+armv6=yes
+armv6_deps=arm
+armv6t2=yes
+armv6t2_deps=arm
+armvfp=yes
+armvfp_deps=arm
+asf_stream_muxer_select=asf_muxer
+asf_test=yes
+asf_test_deps='asf_muxer asf_demuxer'
+asm=yes
+asv1_test=yes
+asv1_test_deps='asv1_encoder asv1_decoder'
+asv2_test=yes
+asv2_test_deps='asv2_encoder asv2_decoder'
+atrac1_decoder_select='mdct sinewin'
+atrac3_decoder_select=mdct
+au_test=yes
+au_test_deps='au_muxer au_demuxer'
+avcodec=yes
+avdevice=yes
+avdevice_deps='avcodec avformat'
+avfilter=yes
+avformat=yes
+avformat_deps=avcodec
+avi_test=yes
+avi_test_deps='avi_muxer avi_demuxer'
+avisynth_demuxer_deps=avisynth
+avutil=yes
+avx=yes
+avx_deps=ssse3
+bindir_default='${prefix}/bin'
+binkaudio_dct_decoder_select='mdct rdft dct sinewin'
+binkaudio_rdft_decoder_select='mdct rdft sinewin'
+bktr_indev_deps_any='dev_bktr_ioctl_bt848_h machine_ioctl_bt848_h dev_video_bktr_ioctl_bt848_h dev_ic_bt8xx_h'
+blackframe_filter_deps=gpl
+bmp_test=yes
+bmp_test_deps='bmp_encoder bmp_decoder'
+bsfs_if_any='aac_adtstoasc_bsf
+chomp_bsf
+dump_extradata_bsf
+h264_mp4toannexb_bsf
+imx_dump_header_bsf
+mjpeg2jpeg_bsf
+mjpega_dump_header_bsf
+mp3_header_compress_bsf
+mp3_header_decompress_bsf
+mov2textsub_bsf
+noise_bsf
+remove_extradata_bsf
+text2movsub_bsf'
+cavs_decoder_select=golomb
+cc='/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/'
+cc_default=gcc
+cc_version='"unknown"'
+cook_decoder_select='mdct sinewin'
+cpu=cortex-a8
+crop_scale_test=yes
+crop_scale_vflip_test=yes
+crop_test=yes
+crop_vflip_test=yes
+cropdetect_filter_deps=gpl
+cross_compile=yes
+crystalhd_deps=libcrystalhd_libcrystalhd_if_h
+cscd_decoder_suggest=zlib
+datadir_default='${prefix}/share/ffmpeg'
+dca_decoder_select=mdct
+dct_select=rdft
+debug=no
+decoders_if_any='aasc_decoder
+amv_decoder
+anm_decoder
+ansi_decoder
+asv1_decoder
+asv2_decoder
+aura_decoder
+aura2_decoder
+avs_decoder
+bethsoftvid_decoder
+bfi_decoder
+bink_decoder
+bmp_decoder
+c93_decoder
+cavs_decoder
+cdgraphics_decoder
+cinepak_decoder
+cljr_decoder
+cscd_decoder
+cyuv_decoder
+dfa_decoder
+dnxhd_decoder
+dpx_decoder
+dsicinvideo_decoder
+dvvideo_decoder
+dxa_decoder
+eacmv_decoder
+eamad_decoder
+eatgq_decoder
+eatgv_decoder
+eatqi_decoder
+eightbps_decoder
+eightsvx_exp_decoder
+eightsvx_fib_decoder
+eightsvx_raw_decoder
+escape124_decoder
+ffv1_decoder
+ffvhuff_decoder
+flashsv_decoder
+flic_decoder
+flv_decoder
+fourxm_decoder
+fraps_decoder
+frwu_decoder
+gif_decoder
+h261_decoder
+h263_decoder
+h263i_decoder
+h264_decoder
+h264_crystalhd_decoder
+h264_vdpau_decoder
+huffyuv_decoder
+idcin_decoder
+iff_byterun1_decoder
+iff_ilbm_decoder
+indeo2_decoder
+indeo3_decoder
+indeo5_decoder
+interplay_video_decoder
+jpeg2000_decoder
+jpegls_decoder
+jv_decoder
+kgv1_decoder
+kmvc_decoder
+lagarith_decoder
+loco_decoder
+mdec_decoder
+mimic_decoder
+mjpeg_decoder
+mjpegb_decoder
+mmvideo_decoder
+motionpixels_decoder
+mpeg_xvmc_decoder
+mpeg1video_decoder
+mpeg2video_decoder
+mpeg4_decoder
+mpeg4_crystalhd_decoder
+mpeg4_vdpau_decoder
+mpegvideo_decoder
+mpeg_vdpau_decoder
+mpeg1_vdpau_decoder
+mpeg2_crystalhd_decoder
+msmpeg4_crystalhd_decoder
+msmpeg4v1_decoder
+msmpeg4v2_decoder
+msmpeg4v3_decoder
+msrle_decoder
+msvideo1_decoder
+mszh_decoder
+mxpeg_decoder
+nuv_decoder
+pam_decoder
+pbm_decoder
+pcx_decoder
+pgm_decoder
+pgmyuv_decoder
+pictor_decoder
+png_decoder
+ppm_decoder
+ptx_decoder
+qdraw_decoder
+qpeg_decoder
+qtrle_decoder
+r10k_decoder
+r210_decoder
+rawvideo_decoder
+rl2_decoder
+roq_decoder
+rpza_decoder
+rv10_decoder
+rv20_decoder
+rv30_decoder
+rv40_decoder
+s302m_decoder
+sgi_decoder
+smacker_decoder
+smc_decoder
+snow_decoder
+sp5x_decoder
+sunrast_decoder
+svq1_decoder
+svq3_decoder
+targa_decoder
+theora_decoder
+thp_decoder
+tiertexseqvideo_decoder
+tiff_decoder
+tmv_decoder
+truemotion1_decoder
+truemotion2_decoder
+tscc_decoder
+txd_decoder
+ulti_decoder
+v210_decoder
+v210x_decoder
+vb_decoder
+vc1_decoder
+vc1_crystalhd_decoder
+vc1_vdpau_decoder
+vcr1_decoder
+vmdvideo_decoder
+vmnc_decoder
+vp3_decoder
+vp5_decoder
+vp6_decoder
+vp6a_decoder
+vp6f_decoder
+vp8_decoder
+vqa_decoder
+wmv1_decoder
+wmv2_decoder
+wmv3_decoder
+wmv3_crystalhd_decoder
+wmv3_vdpau_decoder
+wnv1_decoder
+xan_wc3_decoder
+xan_wc4_decoder
+xl_decoder
+yop_decoder
+zlib_decoder
+zmbv_decoder
+aac_decoder
+aac_latm_decoder
+ac3_decoder
+alac_decoder
+als_decoder
+amrnb_decoder
+amrwb_decoder
+ape_decoder
+atrac1_decoder
+atrac3_decoder
+binkaudio_dct_decoder
+binkaudio_rdft_decoder
+cook_decoder
+dca_decoder
+dsicinaudio_decoder
+eac3_decoder
+flac_decoder
+gsm_decoder
+gsm_ms_decoder
+imc_decoder
+mace3_decoder
+mace6_decoder
+mlp_decoder
+mp1_decoder
+mp1float_decoder
+mp2_decoder
+mp2float_decoder
+mp3_decoder
+mp3float_decoder
+mp3adu_decoder
+mp3adufloat_decoder
+mp3on4_decoder
+mp3on4float_decoder
+mpc7_decoder
+mpc8_decoder
+nellymoser_decoder
+qcelp_decoder
+qdm2_decoder
+ra_144_decoder
+ra_288_decoder
+shorten_decoder
+sipr_decoder
+smackaud_decoder
+sonic_decoder
+truehd_decoder
+truespeech_decoder
+tta_decoder
+twinvq_decoder
+vmdaudio_decoder
+vorbis_decoder
+wavpack_decoder
+wmapro_decoder
+wmav1_decoder
+wmav2_decoder
+wmavoice_decoder
+ws_snd1_decoder
+pcm_alaw_decoder
+pcm_bluray_decoder
+pcm_dvd_decoder
+pcm_f32be_decoder
+pcm_f32le_decoder
+pcm_f64be_decoder
+pcm_f64le_decoder
+pcm_lxf_decoder
+pcm_mulaw_decoder
+pcm_s8_decoder
+pcm_s16be_decoder
+pcm_s16le_decoder
+pcm_s16le_planar_decoder
+pcm_s24be_decoder
+pcm_s24daud_decoder
+pcm_s24le_decoder
+pcm_s32be_decoder
+pcm_s32le_decoder
+pcm_u8_decoder
+pcm_u16be_decoder
+pcm_u16le_decoder
+pcm_u24be_decoder
+pcm_u24le_decoder
+pcm_u32be_decoder
+pcm_u32le_decoder
+pcm_zork_decoder
+interplay_dpcm_decoder
+roq_dpcm_decoder
+sol_dpcm_decoder
+xan_dpcm_decoder
+adpcm_4xm_decoder
+adpcm_adx_decoder
+adpcm_ct_decoder
+adpcm_ea_decoder
+adpcm_ea_maxis_xa_decoder
+adpcm_ea_r1_decoder
+adpcm_ea_r2_decoder
+adpcm_ea_r3_decoder
+adpcm_ea_xas_decoder
+adpcm_g722_decoder
+adpcm_g726_decoder
+adpcm_ima_amv_decoder
+adpcm_ima_dk3_decoder
+adpcm_ima_dk4_decoder
+adpcm_ima_ea_eacs_decoder
+adpcm_ima_ea_sead_decoder
+adpcm_ima_iss_decoder
+adpcm_ima_qt_decoder
+adpcm_ima_smjpeg_decoder
+adpcm_ima_wav_decoder
+adpcm_ima_ws_decoder
+adpcm_ms_decoder
+adpcm_sbpro_2_decoder
+adpcm_sbpro_3_decoder
+adpcm_sbpro_4_decoder
+adpcm_swf_decoder
+adpcm_thp_decoder
+adpcm_xa_decoder
+adpcm_yamaha_decoder
+ass_decoder
+dvbsub_decoder
+dvdsub_decoder
+pgssub_decoder
+srt_decoder
+xsub_decoder
+libcelt_decoder
+libdirac_decoder
+libgsm_decoder
+libgsm_ms_decoder
+libopencore_amrnb_decoder
+libopencore_amrwb_decoder
+libopenjpeg_decoder
+libschroedinger_decoder
+libspeex_decoder
+libvpx_decoder'
+demuxers_if_any='aac_demuxer
+ac3_demuxer
+aea_demuxer
+aiff_demuxer
+amr_demuxer
+anm_demuxer
+apc_demuxer
+ape_demuxer
+applehttp_demuxer
+asf_demuxer
+ass_demuxer
+au_demuxer
+avi_demuxer
+avisynth_demuxer
+avs_demuxer
+bethsoftvid_demuxer
+bfi_demuxer
+bink_demuxer
+c93_demuxer
+caf_demuxer
+cavsvideo_demuxer
+cdg_demuxer
+daud_demuxer
+dfa_demuxer
+dirac_demuxer
+dnxhd_demuxer
+dsicin_demuxer
+dts_demuxer
+dv_demuxer
+dxa_demuxer
+ea_demuxer
+ea_cdata_demuxer
+eac3_demuxer
+ffm_demuxer
+ffmetadata_demuxer
+filmstrip_demuxer
+flac_demuxer
+flic_demuxer
+flv_demuxer
+fourxm_demuxer
+g722_demuxer
+gsm_demuxer
+gxf_demuxer
+h261_demuxer
+h263_demuxer
+h264_demuxer
+idcin_demuxer
+iff_demuxer
+image2_demuxer
+image2pipe_demuxer
+ingenient_demuxer
+ipmovie_demuxer
+iss_demuxer
+iv8_demuxer
+ivf_demuxer
+jv_demuxer
+lmlm4_demuxer
+lxf_demuxer
+m4v_demuxer
+matroska_demuxer
+microdvd_demuxer
+mjpeg_demuxer
+mlp_demuxer
+mm_demuxer
+mmf_demuxer
+mov_demuxer
+mp3_demuxer
+mpc_demuxer
+mpc8_demuxer
+mpegps_demuxer
+mpegts_demuxer
+mpegtsraw_demuxer
+mpegvideo_demuxer
+msnwc_tcp_demuxer
+mtv_demuxer
+mvi_demuxer
+mxf_demuxer
+mxg_demuxer
+nc_demuxer
+nsv_demuxer
+nut_demuxer
+nuv_demuxer
+ogg_demuxer
+oma_demuxer
+pcm_alaw_demuxer
+pcm_mulaw_demuxer
+pcm_f64be_demuxer
+pcm_f64le_demuxer
+pcm_f32be_demuxer
+pcm_f32le_demuxer
+pcm_s32be_demuxer
+pcm_s32le_demuxer
+pcm_s24be_demuxer
+pcm_s24le_demuxer
+pcm_s16be_demuxer
+pcm_s16le_demuxer
+pcm_s8_demuxer
+pcm_u32be_demuxer
+pcm_u32le_demuxer
+pcm_u24be_demuxer
+pcm_u24le_demuxer
+pcm_u16be_demuxer
+pcm_u16le_demuxer
+pcm_u8_demuxer
+pmp_demuxer
+pva_demuxer
+qcp_demuxer
+r3d_demuxer
+rawvideo_demuxer
+rl2_demuxer
+rm_demuxer
+roq_demuxer
+rpl_demuxer
+rso_demuxer
+rtp_demuxer
+rtsp_demuxer
+sap_demuxer
+sdp_demuxer
+segafilm_demuxer
+shorten_demuxer
+siff_demuxer
+smacker_demuxer
+sol_demuxer
+sox_demuxer
+spdif_demuxer
+srt_demuxer
+str_demuxer
+swf_demuxer
+thp_demuxer
+tiertexseq_demuxer
+tmv_demuxer
+truehd_demuxer
+tta_demuxer
+txd_demuxer
+tty_demuxer
+vc1_demuxer
+vc1t_demuxer
+vmd_demuxer
+voc_demuxer
+vqf_demuxer
+w64_demuxer
+wav_demuxer
+wc3_demuxer
+wsaud_demuxer
+wsvqa_demuxer
+wtv_demuxer
+wv_demuxer
+xa_demuxer
+xwma_demuxer
+yop_demuxer
+yuv4mpegpipe_demuxer
+libnut_demuxer'
+dep=yuv4mpegpipe
+dirac_demuxer_select=dirac_parser
+dnxhd_1080i_test=yes
+dnxhd_1080i_test_deps='dnxhd_encoder dnxhd_decoder'
+dnxhd_720p_rd_test=yes
+dnxhd_720p_rd_test_deps='dnxhd_encoder dnxhd_decoder'
+dnxhd_720p_test=yes
+dnxhd_720p_test_deps='dnxhd_encoder dnxhd_decoder'
+dnxhd_encoder_select=aandct
+doc=no
+doc_deps=texi2html
+drawtext_filter_deps=libfreetype
+dshow_indev_deps=IBaseFilter
+dshow_indev_extralibs='-lpsapi -lole32 -lstrmiids -luuid'
+dv1394_indev_deps='dv1394 dv_demuxer'
+dv50_test=yes
+dv50_test_deps='dvvideo_encoder dvvideo_decoder'
+dv_fmt_test=yes
+dv_fmt_test_deps='dv_muxer dv_demuxer'
+dv_test=yes
+dv_test_deps='dvvideo_encoder dvvideo_decoder'
+dxa_decoder_select=zlib
+eac3_decoder_select=ac3_decoder
+eac3_demuxer_select=ac3_parser
+eac3_encoder_select='mdct ac3dsp'
+eamad_decoder_select=aandct
+eatgq_decoder_select=aandct
+eatqi_decoder_select=aandct
+encoders_if_any='a64multi_encoder
+a64multi5_encoder
+asv1_encoder
+asv2_encoder
+bmp_encoder
+dnxhd_encoder
+dpx_encoder
+dvvideo_encoder
+ffv1_encoder
+ffvhuff_encoder
+flashsv_encoder
+flashsv2_encoder
+flv_encoder
+gif_encoder
+h261_encoder
+h263_encoder
+h263p_encoder
+huffyuv_encoder
+jpegls_encoder
+ljpeg_encoder
+mjpeg_encoder
+mpeg1video_encoder
+mpeg2video_encoder
+mpeg4_encoder
+msmpeg4v2_encoder
+msmpeg4v3_encoder
+msvideo1_encoder
+pam_encoder
+pbm_encoder
+pcx_encoder
+pgm_encoder
+pgmyuv_encoder
+png_encoder
+ppm_encoder
+qtrle_encoder
+rawvideo_encoder
+roq_encoder
+rv10_encoder
+rv20_encoder
+sgi_encoder
+snow_encoder
+svq1_encoder
+targa_encoder
+tiff_encoder
+v210_encoder
+wmv1_encoder
+wmv2_encoder
+zlib_encoder
+zmbv_encoder
+aac_encoder
+ac3_encoder
+ac3_fixed_encoder
+ac3_float_encoder
+alac_encoder
+dca_encoder
+eac3_encoder
+flac_encoder
+mp2_encoder
+nellymoser_encoder
+ra_144_encoder
+sonic_encoder
+sonic_ls_encoder
+vorbis_encoder
+wmav1_encoder
+wmav2_encoder
+pcm_alaw_encoder
+pcm_f32be_encoder
+pcm_f32le_encoder
+pcm_f64be_encoder
+pcm_f64le_encoder
+pcm_mulaw_encoder
+pcm_s8_encoder
+pcm_s16be_encoder
+pcm_s16le_encoder
+pcm_s24be_encoder
+pcm_s24daud_encoder
+pcm_s24le_encoder
+pcm_s32be_encoder
+pcm_s32le_encoder
+pcm_u8_encoder
+pcm_u16be_encoder
+pcm_u16le_encoder
+pcm_u24be_encoder
+pcm_u24le_encoder
+pcm_u32be_encoder
+pcm_u32le_encoder
+pcm_zork_encoder
+roq_dpcm_encoder
+adpcm_adx_encoder
+adpcm_g722_encoder
+adpcm_g726_encoder
+adpcm_ima_qt_encoder
+adpcm_ima_wav_encoder
+adpcm_ms_encoder
+adpcm_swf_encoder
+adpcm_yamaha_encoder
+ass_encoder
+dvbsub_encoder
+dvdsub_encoder
+srt_encoder
+xsub_encoder
+libdirac_encoder
+libfaac_encoder
+libgsm_encoder
+libgsm_ms_encoder
+libmp3lame_encoder
+libopencore_amrnb_encoder
+libschroedinger_encoder
+libtheora_encoder
+libvo_aacenc_encoder
+libvo_amrwbenc_encoder
+libvorbis_encoder
+libvpx_encoder
+libx264_encoder
+libxavs_encoder
+libxvid_encoder'
+error_test=yes
+error_test_deps='mpeg4_encoder mpeg4_decoder'
+extra_cflags=' -arch armv7 -mfpu=neon -miphoneos-version-min=6.0'
+fast_64bit_if_any='alpha ia64 mips64 parisc64 ppc64 sparc64 x86_64'
+fast_clz_if_any='alpha armv5te avr32 mips ppc x86'
+fast_unaligned_if_any='armv6 ppc x86'
+fastdiv=yes
+fbdev_indev_deps=linux_fb_h
+ffm_test=yes
+ffm_test_deps='ffm_muxer ffm_demuxer'
+ffmpeg=no
+ffmpeg_deps='avcodec avformat swscale'
+ffmpeg_select=buffer_filter
+ffplay=no
+ffplay_deps='avcodec avformat swscale sdl'
+ffplay_select=rdft
+ffprobe=no
+ffprobe_deps='avcodec avformat'
+ffserver=no
+ffserver_deps='avformat ffm_muxer fork rtp_protocol rtsp_demuxer'
+ffserver_extralibs='$ldl'
+ffv1_decoder_select=golomb
+ffv1_test=yes
+ffv1_test_deps='ffv1_encoder ffv1_decoder'
+file_protocol=yes
+filters_if_any='anull_filter
+anullsrc_filter
+anullsink_filter
+blackframe_filter
+copy_filter
+crop_filter
+cropdetect_filter
+drawbox_filter
+drawtext_filter
+fade_filter
+fieldorder_filter
+fifo_filter
+format_filter
+frei0r_filter
+gradfun_filter
+hflip_filter
+hqdn3d_filter
+lut_filter
+lutrgb_filter
+lutyuv_filter
+mp_filter
+negate_filter
+noformat_filter
+null_filter
+ocv_filter
+overlay_filter
+pad_filter
+pixdesctest_filter
+scale_filter
+select_filter
+setdar_filter
+setpts_filter
+setsar_filter
+settb_filter
+showinfo_filter
+slicify_filter
+split_filter
+transpose_filter
+unsharp_filter
+vflip_filter
+yadif_filter
+buffer_filter
+color_filter
+frei0r_src_filter
+movie_filter
+nullsrc_filter
+buffersink_filter
+nullsink_filter'
+flac_decoder_select=golomb
+flac_demuxer_select=flac_parser
+flac_encoder_select='golomb lpc'
+flac_test=yes
+flac_test_deps='flac_encoder flac_decoder'
+flashsv2_encoder_select=zlib
+flashsv2_test=yes
+flashsv_decoder_select=zlib
+flashsv_encoder_select=zlib
+flashsv_test=yes
+flashsv_test_deps='flashsv_encoder flashsv_decoder'
+flv_decoder_select=h263_decoder
+flv_encoder_select=h263_encoder
+flv_fmt_test=yes
+flv_fmt_test_deps='flv_muxer flv_demuxer'
+flv_test=yes
+flv_test_deps='flv_encoder flv_decoder'
+fraps_decoder_select=huffman
+frei0r_filter_deps='frei0r dlopen strtok_r'
+frei0r_src_filter_deps='frei0r dlopen strtok_r'
+g726_test=yes
+g726_test_deps='adpcm_g726_encoder adpcm_g726_decoder'
+gif_test=yes
+gif_test_deps='gif_encoder gif_decoder'
+gopher_protocol_deps=network
+gxf_test=yes
+gxf_test_deps='gxf_muxer gxf_demuxer'
+h261_encoder_select=aandct
+h261_test=yes
+h261_test_deps='h261_encoder h261_decoder'
+h263_decoder_select=h263_parser
+h263_encoder_select=aandct
+h263_test=yes
+h263_test_deps='h263_encoder h263_decoder'
+h263_vaapi_hwaccel_select='vaapi h263_decoder'
+h263i_decoder_select=h263_decoder
+h263p_encoder_select=h263_encoder
+h263p_test=yes
+h263p_test_deps='h263_encoder h263_decoder'
+h264_crystalhd_decoder_select='crystalhd h264_mp4toannexb_bsf h264_parser'
+h264_decoder=yes
+h264_decoder_select='golomb h264dsp h264pred'
+h264_dxva2_hwaccel_deps=dxva2api_h
+h264_dxva2_hwaccel_select='dxva2 h264_decoder'
+h264_parser_select='golomb h264dsp h264pred'
+h264_vaapi_hwaccel_select=vaapi
+h264_vdpau_decoder_select='vdpau h264_decoder'
+host_cc_default=gcc
+host_cflags='-D_ISOC99_SOURCE -O3 -g'
+host_libs=-lm
+host_os=darwin
+hqdn3d_filter_deps=gpl
+http_protocol_deps=network
+http_protocol_select=tcp_protocol
+huffyuv_test=yes
+huffyuv_test_deps='huffyuv_encoder huffyuv_decoder'
+hwaccels_if_any='h263_vaapi_hwaccel
+h264_dxva2_hwaccel
+h264_vaapi_hwaccel
+mpeg1_vdpau_hwaccel
+mpeg2_dxva2_hwaccel
+mpeg2_vaapi_hwaccel
+mpeg2_vdpau_hwaccel
+mpeg4_vaapi_hwaccel
+vc1_dxva2_hwaccel
+vc1_vaapi_hwaccel
+wmv3_dxva2_hwaccel
+wmv3_vaapi_hwaccel'
+imc_decoder_select='fft mdct sinewin'
+incdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../Includes
+incdir_default='${prefix}/include'
+indevs_if_any='alsa_indev
+bktr_indev
+dshow_indev
+dv1394_indev
+fbdev_indev
+jack_indev
+oss_indev
+sndio_indev
+v4l2_indev
+v4l_indev
+vfwcap_indev
+x11_grab_device_indev
+libdc1394_indev'
+inline_asm_deps='!tms470'
+install=install
+ipod_muxer_select=mov_muxer
+iwmmxt=yes
+iwmmxt_deps=arm
+jack_indev_deps='jack_jack_h sem_timedwait'
+jpegls_decoder_select=golomb
+jpegls_encoder_select=golomb
+jpegls_test=yes
+jpegls_test_deps='jpegls_encoder jpegls_decoder'
+jpg_test=yes
+jpg_test_deps='mjpeg_encoder mjpeg_decoder'
+l=
+libcelt_decoder_deps=libcelt
+libdc1394_indev_deps=libdc1394
+libdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../../Soft/Build/targets_versions//ffmpeg_armv7_PROD_MODE_iphoneos__
+libdir_default='${prefix}/lib'
+libdirac_decoder_deps='libdirac !libschroedinger'
+libdirac_encoder_deps=libdirac
+libfaac_encoder_deps=libfaac
+libgsm_decoder_deps=libgsm
+libgsm_encoder_deps=libgsm
+libgsm_ms_decoder_deps=libgsm
+libgsm_ms_encoder_deps=libgsm
+libmp3lame_encoder_deps=libmp3lame
+libnut_demuxer_deps=libnut
+libnut_muxer_deps=libnut
+libopencore_amrnb_decoder_deps=libopencore_amrnb
+libopencore_amrnb_encoder_deps=libopencore_amrnb
+libopencore_amrwb_decoder_deps=libopencore_amrwb
+libopenjpeg_decoder_deps=libopenjpeg
+libschroedinger_decoder_deps=libschroedinger
+libschroedinger_encoder_deps=libschroedinger
+libspeex_decoder_deps=libspeex
+libtheora_encoder_deps=libtheora
+libvo_aacenc_encoder_deps=libvo_aacenc
+libvo_amrwbenc_encoder_deps=libvo_amrwbenc
+libvorbis_encoder_deps=libvorbis
+libvpx_decoder_deps=libvpx
+libvpx_encoder_deps=libvpx
+libx264_encoder_deps=libx264
+libxavs_encoder_deps=libxavs
+libxvid_encoder_deps=libxvid
+list='applehttp_protocol
+concat_protocol
+crypto_protocol
+file_protocol
+gopher_protocol
+http_protocol
+mmsh_protocol
+mmst_protocol
+md5_protocol
+pipe_protocol
+rtmp_protocol
+rtmpt_protocol
+rtmpe_protocol
+rtmpte_protocol
+rtmps_protocol
+rtp_protocol
+tcp_protocol
+udp_protocol'
+ljpeg_encoder_select=aandct
+ljpeg_test=yes
+ljpeg_test_deps='mjpeg_encoder mjpeg_decoder'
+ln_s='ln -sf'
+loco_decoder_select=golomb
+logfile=config.log
+m='eval unset \${$(toupper ${v%s})_LIST}'
+m4v_muxer=yes
+mandir_default='${prefix}/share/man'
+matroska_audio_muxer_select=matroska_muxer
+matroska_demuxer_suggest='zlib bzlib'
+mdct_select=fft
+mjpeg_encoder_select=aandct
+mjpeg_test=yes
+mjpeg_test_deps='mjpeg_encoder mjpeg_decoder'
+mkv_test=yes
+mkv_test_deps='matroska_muxer matroska_demuxer'
+mlp_decoder_select=mlp_parser
+mmf_test=yes
+mmf_test_deps='mmf_muxer mmf_demuxer'
+mmi=yes
+mmi_deps=mips
+mmsh_protocol_select=http_protocol
+mmst_protocol_deps=network
+mmx=yes
+mmx2=yes
+mmx2_deps=mmx
+mmx_deps=x86
+mov_demuxer_suggest=zlib
+mov_test=yes
+mov_test_deps='mov_muxer mov_demuxer'
+movie_filter_deps='avcodec avformat'
+mp1_decoder_select=mpegaudiodsp
+mp1float_decoder_select=mpegaudiodsp
+mp2_decoder_select=mpegaudiodsp
+mp2_test=yes
+mp2_test_deps='mp2_encoder mp2_decoder'
+mp2float_decoder_select=mpegaudiodsp
+mp3_decoder_select=mpegaudiodsp
+mp3_demuxer_select=mpegaudio_parser
+mp3adu_decoder_select=mpegaudiodsp
+mp3adufloat_decoder_select=mpegaudiodsp
+mp3float_decoder_select=mpegaudiodsp
+mp3on4_decoder_select=mpegaudiodsp
+mp3on4float_decoder_select=mpegaudiodsp
+mp4_muxer=yes
+mp4_muxer_select=mov_muxer
+mp_filter_deps='gpl avcodec'
+mpeg1_vdpau_decoder_select='vdpau mpeg1video_decoder'
+mpeg1_vdpau_hwaccel_select='vdpau mpeg1video_decoder'
+mpeg1b_test=yes
+mpeg1b_test_deps='mpeg1video_encoder mpeg1video_decoder'
+mpeg1video_encoder_select=aandct
+mpeg2_crystalhd_decoder_select=crystalhd
+mpeg2_dxva2_hwaccel_deps=dxva2api_h
+mpeg2_dxva2_hwaccel_select='dxva2 mpeg2video_decoder'
+mpeg2_test=yes
+mpeg2_test_deps='mpeg2video_encoder mpeg2video_decoder'
+mpeg2_vaapi_hwaccel_select='vaapi mpeg2video_decoder'
+mpeg2_vdpau_hwaccel_select='vdpau mpeg2video_decoder'
+mpeg2thread_test=yes
+mpeg2thread_test_deps='mpeg2video_encoder mpeg2video_decoder'
+mpeg2video_encoder_select=aandct
+mpeg4_crystalhd_decoder_select=crystalhd
+mpeg4_decoder=yes
+mpeg4_decoder_select='h263_decoder mpeg4video_parser'
+mpeg4_encoder=yes
+mpeg4_encoder_select=h263_encoder
+mpeg4_test=yes
+mpeg4_test_deps='mpeg4_encoder mpeg4_decoder'
+mpeg4_vaapi_hwaccel_select='vaapi mpeg4_decoder'
+mpeg4_vdpau_decoder_select='vdpau mpeg4_decoder'
+mpeg4adv_test=yes
+mpeg4adv_test_deps='mpeg4_encoder mpeg4_decoder'
+mpeg4nr_test=yes
+mpeg4nr_test_deps='mpeg4_encoder mpeg4_decoder'
+mpeg4thread_test=yes
+mpeg4thread_test_deps='mpeg4_encoder mpeg4_decoder'
+mpeg_test=yes
+mpeg_test_deps='mpeg1video_encoder mpeg1video_decoder'
+mpeg_vdpau_decoder_select='vdpau mpegvideo_decoder'
+mpeg_xvmc_decoder_deps=X11_extensions_XvMClib_h
+mpeg_xvmc_decoder_select=mpegvideo_decoder
+mpegaudiodsp_select=dct
+mpegtsraw_demuxer_select=mpegts_demuxer
+mpg_test=yes
+mpg_test_deps='mpeg1system_muxer mpegps_demuxer'
+msmpeg4_crystalhd_decoder_select=crystalhd
+msmpeg4_test=yes
+msmpeg4_test_deps='msmpeg4v3_encoder msmpeg4v3_decoder'
+msmpeg4v1_decoder_select=h263_decoder
+msmpeg4v1_encoder_select=h263_encoder
+msmpeg4v2_decoder_select=h263_decoder
+msmpeg4v2_encoder_select=h263_encoder
+msmpeg4v2_test=yes
+msmpeg4v2_test_deps='msmpeg4v2_encoder msmpeg4v2_decoder'
+msmpeg4v3_decoder_select=h263_decoder
+msmpeg4v3_encoder_select=h263_encoder
+msvideo1_test=yes
+mulaw_test=yes
+mulaw_test_deps='pcm_mulaw_muxer pcm_mulaw_demuxer'
+muxers_if_any='a64_muxer
+ac3_muxer
+adts_muxer
+aiff_muxer
+amr_muxer
+asf_muxer
+ass_muxer
+asf_stream_muxer
+au_muxer
+avi_muxer
+avm2_muxer
+caf_muxer
+cavsvideo_muxer
+crc_muxer
+daud_muxer
+dirac_muxer
+dnxhd_muxer
+dts_muxer
+dv_muxer
+eac3_muxer
+ffm_muxer
+ffmetadata_muxer
+filmstrip_muxer
+flac_muxer
+flv_muxer
+framecrc_muxer
+framemd5_muxer
+g722_muxer
+gif_muxer
+gxf_muxer
+h261_muxer
+h263_muxer
+h264_muxer
+image2_muxer
+image2pipe_muxer
+ipod_muxer
+ivf_muxer
+m4v_muxer
+md5_muxer
+matroska_muxer
+matroska_audio_muxer
+microdvd_muxer
+mjpeg_muxer
+mlp_muxer
+mmf_muxer
+mov_muxer
+mp2_muxer
+mp3_muxer
+mp4_muxer
+mpeg1system_muxer
+mpeg1vcd_muxer
+mpeg1video_muxer
+mpeg2dvd_muxer
+mpeg2svcd_muxer
+mpeg2video_muxer
+mpeg2vob_muxer
+mpegts_muxer
+mpjpeg_muxer
+mxf_muxer
+mxf_d10_muxer
+null_muxer
+nut_muxer
+ogg_muxer
+pcm_alaw_muxer
+pcm_mulaw_muxer
+pcm_f64be_muxer
+pcm_f64le_muxer
+pcm_f32be_muxer
+pcm_f32le_muxer
+pcm_s32be_muxer
+pcm_s32le_muxer
+pcm_s24be_muxer
+pcm_s24le_muxer
+pcm_s16be_muxer
+pcm_s16le_muxer
+pcm_s8_muxer
+pcm_u32be_muxer
+pcm_u32le_muxer
+pcm_u24be_muxer
+pcm_u24le_muxer
+pcm_u16be_muxer
+pcm_u16le_muxer
+pcm_u8_muxer
+psp_muxer
+rawvideo_muxer
+rm_muxer
+roq_muxer
+rso_muxer
+rtp_muxer
+rtsp_muxer
+sap_muxer
+sox_muxer
+spdif_muxer
+srt_muxer
+swf_muxer
+tg2_muxer
+tgp_muxer
+truehd_muxer
+vc1t_muxer
+voc_muxer
+wav_muxer
+webm_muxer
+yuv4mpegpipe_muxer
+libnut_muxer'
+mxf_d10_muxer_select=mxf_muxer
+mxf_test=yes
+mxf_test_deps='mxf_muxer mxf_demuxer'
+n=protocols
+name=file_protocol
+need_memalign='altivec neon sse'
+negate_filter_deps=lut_filter
+nellymoser_decoder_select='mdct sinewin'
+nellymoser_encoder_select='mdct sinewin'
+neon=yes
+neon_deps=arm
+network=yes
+nm_default=nm
+nm_opts=-g
+nogas=:
+null_test=yes
+nut_test=yes
+nut_test_deps='nut_muxer nut_demuxer'
+objformat=elf
+ocv_filter_deps=libopencv
+ogg_demuxer_select=golomb
+ogg_test=yes
+ogg_test_deps='ogg_muxer ogg_demuxer'
+op==
+opt=--enable-neon
+optimizations=yes
+option=neon
+optname=arch
+optval=--enable-neon
+oss_indev_deps_any='soundcard_h sys_soundcard_h'
+oss_outdev_deps_any='soundcard_h sys_soundcard_h'
+outdevs_if_any='alsa_outdev
+oss_outdev
+sdl_outdev
+sndio_outdev'
+parsers_if_any='aac_parser
+aac_latm_parser
+ac3_parser
+cavsvideo_parser
+dca_parser
+dirac_parser
+dnxhd_parser
+dvbsub_parser
+dvdsub_parser
+flac_parser
+h261_parser
+h263_parser
+h264_parser
+mjpeg_parser
+mlp_parser
+mpeg4video_parser
+mpegaudio_parser
+mpegvideo_parser
+pnm_parser
+vc1_parser
+vp3_parser
+vp8_parser'
+pbmpipe_test=yes
+pbmpipe_test_deps='pbm_encoder pbm_decoder'
+pcm_test=yes
+pcm_test_deps='pcm_alaw_decoder pcm_alaw_encoder
+pcm_f32be_decoder pcm_f32be_encoder
+pcm_f32le_decoder pcm_f32le_encoder
+pcm_f64be_decoder pcm_f64be_encoder
+pcm_f64le_decoder pcm_f64le_encoder
+pcm_mulaw_decoder pcm_mulaw_encoder
+pcm_s8_decoder pcm_s8_encoder
+pcm_s16be_decoder pcm_s16be_encoder
+pcm_s16le_decoder pcm_s16le_encoder
+pcm_s24be_decoder pcm_s24be_encoder
+pcm_s24daud_decoder pcm_s24daud_encoder
+pcm_s24le_decoder pcm_s24le_encoder
+pcm_s32be_decoder pcm_s32be_encoder
+pcm_s32le_decoder pcm_s32le_encoder
+pcm_u8_decoder pcm_u8_encoder
+pcm_u16be_decoder pcm_u16be_encoder
+pcm_u16le_decoder pcm_u16le_encoder
+pcm_u24be_decoder pcm_u24be_encoder
+pcm_u24le_decoder pcm_u24le_encoder
+pcm_u32be_decoder pcm_u32be_encoder
+pcm_u32le_decoder pcm_u32le_encoder
+pcm_zork_decoder pcm_zork_encoder'
+pcx_test=yes
+pcx_test_deps='pcx_encoder pcx_decoder'
+pgm_test=yes
+pgm_test_deps='pgm_encoder pgm_decoder'
+pgmpipe_test=yes
+pgmpipe_test_deps='pgm_encoder pgm_decoder'
+pic=yes
+pixdesc_be_test=yes
+pixdesc_be_test_deps=bigendian
+pixdesc_le_test=yes
+pixdesc_le_test_deps='!bigendian'
+pixfmt_test=yes
+pixfmt_test_deps='rawvideo_muxer rawvideo_demuxer'
+pixfmts_copy_be_test_deps=bigendian
+pixfmts_copy_le_test=yes
+pixfmts_copy_le_test_deps='!bigendian'
+pixfmts_crop_be_test_deps=bigendian
+pixfmts_crop_le_test=yes
+pixfmts_crop_le_test_deps='!bigendian'
+pixfmts_hflip_be_test_deps=bigendian
+pixfmts_hflip_le_test=yes
+pixfmts_hflip_le_test_deps='!bigendian'
+pixfmts_null_be_test_deps=bigendian
+pixfmts_null_le_test=yes
+pixfmts_null_le_test_deps='!bigendian'
+pixfmts_pad_be_test_deps=bigendian
+pixfmts_pad_le_test=yes
+pixfmts_pad_le_test_deps='!bigendian'
+pixfmts_scale_be_test_deps=bigendian
+pixfmts_scale_le_test=yes
+pixfmts_scale_le_test_deps='!bigendian'
+pixfmts_vflip_be_test_deps=bigendian
+pixfmts_vflip_le_test=yes
+pixfmts_vflip_le_test_deps='!bigendian'
+pkg_config_default=pkg-config
+png_decoder_select=zlib
+png_encoder_select=zlib
+png_test=yes
+png_test_deps='png_encoder png_decoder'
+postproc=yes
+postproc_deps=gpl
+ppc4xx=yes
+ppc4xx_deps=ppc
+ppm_test=yes
+ppm_test_deps='ppm_encoder ppm_decoder'
+ppmpipe_test=yes
+ppmpipe_test_deps='ppm_encoder ppm_decoder'
+prefix_default=/usr/local
+protocols=yes
+protocols_if_any='applehttp_protocol
+concat_protocol
+crypto_protocol
+file_protocol
+gopher_protocol
+http_protocol
+mmsh_protocol
+mmst_protocol
+md5_protocol
+pipe_protocol
+rtmp_protocol
+rtmpt_protocol
+rtmpe_protocol
+rtmpte_protocol
+rtmps_protocol
+rtp_protocol
+tcp_protocol
+udp_protocol'
+psp_muxer_select=mov_muxer
+qcelp_decoder_select=lsp
+qdm2_decoder_select='mdct rdft mpegaudiodsp'
+qtrle_test=yes
+qtrlegray_test=yes
+quotes='""'
+r=--enable-neon
+ra_144_encoder_select=lpc
+ranlib=ranlib
+rawvideo_decoder=yes
+rawvideo_muxer=yes
+rc_test=yes
+rc_test_deps='mpeg4_encoder mpeg4_decoder'
+rdft_select=fft
+rgb_test=yes
+rgb_test_deps='rawvideo_encoder rawvideo_decoder'
+rm_test=yes
+rm_test_deps='rm_muxer rm_demuxer'
+roq_test=yes
+roq_test_deps='roq_encoder roq_decoder'
+rtmp_protocol_select=tcp_protocol
+rtp_demuxer_select=sdp_demuxer
+rtp_protocol_select=udp_protocol
+rtpdec_select='asf_demuxer rm_demuxer rtp_protocol mpegts_demuxer mov_demuxer'
+rtsp_demuxer_select='http_protocol rtpdec'
+rtsp_muxer_select='rtp_muxer http_protocol rtp_protocol'
+rv10_decoder_select=h263_decoder
+rv10_encoder_select=h263_encoder
+rv10_test=yes
+rv10_test_deps='rv10_encoder rv10_decoder'
+rv20_decoder_select=h263_decoder
+rv20_encoder_select=h263_encoder
+rv20_test=yes
+rv20_test_deps='rv20_encoder rv20_decoder'
+rv30_decoder_select='golomb h264pred'
+rv40_decoder_select='golomb h264pred'
+sap_demuxer_select=sdp_demuxer
+sap_muxer_select='rtp_muxer rtp_protocol'
+scale200_test=yes
+scale500_test=yes
+scale_filter_deps=swscale
+sdl_outdev_deps=sdl
+sdp_demuxer_select=rtpdec
+seek_ac3_rm_test=yes
+seek_adpcm_ima_wav_test=yes
+seek_adpcm_ms_wav_test=yes
+seek_adpcm_qt_aiff_test=yes
+seek_adpcm_swf_flv_test=yes
+seek_adpcm_yam_wav_test=yes
+seek_alac_m4a_test=yes
+seek_asv1_avi_test=yes
+seek_asv2_avi_test=yes
+seek_dnxhd_1080i_mov_test=yes
+seek_dnxhd_720p_dnxhd_test=yes
+seek_dnxhd_720p_rd_dnxhd_test=yes
+seek_dv411_dv_test=yes
+seek_dv50_dv_test=yes
+seek_dv_dv_test=yes
+seek_error_mpeg4_adv_avi_test=yes
+seek_ffv1_avi_test=yes
+seek_flac_flac_test=yes
+seek_flashsv_flv_test=yes
+seek_flv_flv_test=yes
+seek_g726_wav_test=yes
+seek_h261_avi_test=yes
+seek_h263_avi_test=yes
+seek_h263p_avi_test=yes
+seek_huffyuv_avi_test=yes
+seek_image_bmp_test=yes
+seek_image_jpg_test=yes
+seek_image_pcx_test=yes
+seek_image_pgm_test=yes
+seek_image_ppm_test=yes
+seek_image_sgi_test=yes
+seek_image_tga_test=yes
+seek_image_tiff_test=yes
+seek_jpegls_avi_test=yes
+seek_lavf_aif_test=yes
+seek_lavf_al_test=yes
+seek_lavf_asf_test=yes
+seek_lavf_au_test=yes
+seek_lavf_avi_test=yes
+seek_lavf_dv_test=yes
+seek_lavf_ffm_test=yes
+seek_lavf_flv_test=yes
+seek_lavf_gif_test=yes
+seek_lavf_gxf_test=yes
+seek_lavf_mkv_test=yes
+seek_lavf_mmf_test=yes
+seek_lavf_mov_test=yes
+seek_lavf_mpg_test=yes
+seek_lavf_mxf_d10_test=yes
+seek_lavf_mxf_test=yes
+seek_lavf_nut_test=yes
+seek_lavf_ogg_test=yes
+seek_lavf_rm_test=yes
+seek_lavf_swf_test=yes
+seek_lavf_ts_test=yes
+seek_lavf_ul_test=yes
+seek_lavf_voc_test=yes
+seek_lavf_wav_test=yes
+seek_lavf_y4m_test=yes
+seek_ljpeg_avi_test=yes
+seek_mjpeg_avi_test=yes
+seek_mp2_mp2_test=yes
+seek_mpeg1_mpg_test=yes
+seek_mpeg1b_mpg_test=yes
+seek_mpeg2_422_mpg_test=yes
+seek_mpeg2_mpg_test=yes
+seek_mpeg2i_mpg_test=yes
+seek_mpeg2ivlc_qprd_mpg_test=yes
+seek_mpeg2reuse_mpg_test=yes
+seek_mpeg2thread_mpg_test=yes
+seek_mpeg2threadivlc_mpg_test=yes
+seek_mpeg4_adap_avi_test=yes
+seek_mpeg4_adv_avi_test=yes
+seek_mpeg4_nr_avi_test=yes
+seek_mpeg4_qprd_avi_test=yes
+seek_mpeg4_rc_avi_test=yes
+seek_mpeg4_thread_avi_test=yes
+seek_msmpeg4_avi_test=yes
+seek_msmpeg4v2_avi_test=yes
+seek_odivx_mp4_test=yes
+seek_pbmpipe_pbm_test=yes
+seek_pcm_alaw_wav_test=yes
+seek_pcm_f32be_au_test=yes
+seek_pcm_f32le_wav_test=yes
+seek_pcm_f64be_au_test=yes
+seek_pcm_f64le_wav_test=yes
+seek_pcm_mulaw_wav_test=yes
+seek_pcm_s16be_mkv_test=yes
+seek_pcm_s16be_mov_test=yes
+seek_pcm_s16le_mkv_test=yes
+seek_pcm_s16le_wav_test=yes
+seek_pcm_s24be_mov_test=yes
+seek_pcm_s24daud_302_test=yes
+seek_pcm_s24le_wav_test=yes
+seek_pcm_s32be_mov_test=yes
+seek_pcm_s32le_wav_test=yes
+seek_pcm_s8_mov_test=yes
+seek_pcm_u8_wav_test=yes
+seek_pcm_zork_wav_test=yes
+seek_pgmpipe_pgm_test=yes
+seek_ppmpipe_ppm_test=yes
+seek_rgb_avi_test=yes
+seek_roqav_roq_test=yes
+seek_rv10_rm_test=yes
+seek_rv20_rm_test=yes
+seek_snow53_avi_test=yes
+seek_snow_avi_test=yes
+seek_svq1_mov_test=yes
+seek_wmav1_asf_test=yes
+seek_wmav2_asf_test=yes
+seek_wmv1_avi_test=yes
+seek_wmv2_avi_test=yes
+seek_yuv_avi_test=yes
+sgi_test=yes
+sgi_test_deps='sgi_encoder sgi_decoder'
+shared=no
+shlibdir=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../../Soft/Build/targets_versions//ffmpeg_armv7_PROD_MODE_iphoneos__
+shlibdir_default='${prefix}/lib'
+shorten_decoder_select=golomb
+sipr_decoder_select=lsp
+sndio_indev_deps=sndio_h
+sndio_outdev_deps=sndio_h
+snow_decoder_select=dwt
+snow_encoder_select='aandct dwt'
+snow_test=yes
+snow_test_deps='snow_encoder snow_decoder'
+snowll_test=yes
+snowll_test_deps='snow_encoder snow_decoder'
+sonic_decoder_select=golomb
+sonic_encoder_select=golomb
+sonic_ls_encoder_select=golomb
+source_path=/Users/pac/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg
+source_path_used=no
+spdif_muxer_select=aac_parser
+sse=yes
+sse_deps=mmx
+ssse3=yes
+ssse3_deps=sse
+static=yes
+strip_default=strip
+stripping=yes
+suf1=_muxer
+suf2=_demuxer
+svq1_encoder_select=aandct
+svq1_test=yes
+svq1_test_deps='svq1_encoder svq1_decoder'
+svq3_decoder_select='golomb h264dsp h264pred'
+svq3_decoder_suggest=zlib
+swf_test=yes
+swf_test_deps='swf_muxer swf_demuxer'
+swscale=yes
+swscale_alpha=yes
+symver_if_any='symver_asm_label symver_gnu_asm'
+sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/
+target_os=darwin
+target_os_default=darwin
+target_path='$(CURDIR)'
+tcp_protocol_deps=network
+tests=yuv4mpeg
+tg2_muxer_select=mov_muxer
+tga_test=yes
+tga_test_deps='targa_encoder targa_decoder'
+tgp_muxer_select=mov_muxer
+theora_decoder_select=vp3_decoder
+thing=protocol
+tiff_decoder_suggest=zlib
+tiff_encoder_suggest=zlib
+tiff_test=yes
+tiff_test_deps='tiff_encoder tiff_decoder'
+truehd_decoder_select=mlp_decoder
+ts_test=yes
+ts_test_deps='mpegts_muxer mpegts_demuxer'
+tscc_decoder_select=zlib
+twinvq_decoder_select='mdct lsp sinewin'
+udp_protocol_deps=network
+v=protocols
+v4l2_indev_deps_any='linux_videodev2_h sys_videoio_h'
+v4l_indev_deps=linux_videodev_h
+vaapi_deps=va_va_h
+value=yes
+var=neon
+variant=normal
+vc1_crystalhd_decoder_select=crystalhd
+vc1_decoder_select=h263_decoder
+vc1_dxva2_hwaccel_deps='dxva2api_h DXVA_PictureParameters_wDecodedPictureIndex'
+vc1_dxva2_hwaccel_select='dxva2 vc1_decoder'
+vc1_vaapi_hwaccel_select='vaapi vc1_decoder'
+vc1_vdpau_decoder_select='vdpau vc1_decoder'
+vdpau_deps='vdpau_vdpau_h vdpau_vdpau_x11_h'
+vflip_crop_test=yes
+vflip_test=yes
+vflip_vflip_test=yes
+vfpv3=yes
+vfpv3_deps=armvfp
+vfwcap_indev_deps='capCreateCaptureWindow vfwcap_defines'
+vfwcap_indev_extralibs=-lavicap32
+vis=yes
+vis_deps=sparc
+voc_s16_test=yes
+voc_test=yes
+voc_test_deps='voc_muxer voc_demuxer'
+vorbis_decoder_select=mdct
+vorbis_encoder_select=mdct
+vp6_decoder_select=huffman
+vp6a_decoder_select=vp6_decoder
+vp6f_decoder_select=vp6_decoder
+vp8_decoder_select=h264pred
+vref_test=yes
+w64_demuxer_deps=wav_demuxer
+wav_test=yes
+wav_test_deps='wav_muxer wav_demuxer'
+wmapro_decoder_select='mdct sinewin'
+wmav1_decoder_select='mdct sinewin'
+wmav1_encoder_select='mdct sinewin'
+wmav1_test=yes
+wmav1_test_deps='wmav1_encoder wmav1_decoder'
+wmav2_decoder_select='mdct sinewin'
+wmav2_encoder_select='mdct sinewin'
+wmav2_test=yes
+wmav2_test_deps='wmav2_encoder wmav2_decoder'
+wmavoice_decoder_select='lsp rdft dct mdct sinewin'
+wmv1_decoder_select=h263_decoder
+wmv1_encoder_select=h263_encoder
+wmv1_test=yes
+wmv1_test_deps='wmv1_encoder wmv1_decoder'
+wmv2_decoder_select=h263_decoder
+wmv2_encoder_select=h263_encoder
+wmv2_test=yes
+wmv2_test_deps='wmv2_encoder wmv2_decoder'
+wmv3_crystalhd_decoder_select=crystalhd
+wmv3_decoder_select=vc1_decoder
+wmv3_dxva2_hwaccel_select=vc1_dxva2_hwaccel
+wmv3_vaapi_hwaccel_select=vc1_vaapi_hwaccel
+wmv3_vdpau_decoder_select=vc1_vdpau_decoder
+x11_grab_device_indev_deps='x11grab XShmCreateImage'
+x11_grab_device_indev_extralibs='-lX11 -lXext -lXfixes'
+x86_64_suggest='cmov fast_cmov'
+yadif_filter_deps=gpl
+yasmexe=yasm
+yuv4mpeg_test=yes
+yuv4mpeg_test_deps='yuv4mpegpipe_muxer yuv4mpegpipe_demuxer'
+yuv_test=yes
+yuv_test_deps='rawvideo_encoder rawvideo_decoder'
+zlib_decoder_select=zlib
+zlib_encoder_select=zlib
+zmbv_decoder_select=zlib
+zmbv_encoder_select=zlib
+WARNING: pkg-config not found, library detection may fail.
+mktemp -u XXXXXX
+0jnBLw
+WARNING: Unknown C compiler /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/, unable to select optimal CFLAGS
+check_ld
+check_cc
+BEGIN /var/folders/lq/jt_5ft150rnd56m7f_kp53fw0000gn/T//ffconf.kebiOsA4.c
+    1	int main(void){ return 0; }
+END /var/folders/lq/jt_5ft150rnd56m7f_kp53fw0000gn/T//ffconf.kebiOsA4.c
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/ -arch armv7 -mfpu=neon -miphoneos-version-min=6.0 -mcpu=cortex-a8 -c -o /var/folders/lq/jt_5ft150rnd56m7f_kp53fw0000gn/T//ffconf.CSOAyMZH.o /var/folders/lq/jt_5ft150rnd56m7f_kp53fw0000gn/T//ffconf.kebiOsA4.c
+./configure: line 595: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc: No such file or directory
+C compiler test failed.
